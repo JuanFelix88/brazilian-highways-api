@@ -1,0 +1,1780 @@
+[
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0597402,-48.5620091,3a,75y,275.87h,90.43t/data=!3m6!1e1!3m4!1sT-RB9kkeS78V5gVGPuJngg!2e0!7i16384!8i8192",
+    "km": 0,
+    "position": [
+      -25.0597402,
+      -48.5620091
+    ],
+    "reference01": "Régis Bittencourt, km 0",
+    "reference02": "BR-116, km 0",
+    "reference03": "Régis Bittencourt BR-116, km 0",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0635501,-48.5654913,3a,83.2y,332.47h,76.71t/data=!3m10!1e1!3m8!1sULOdYNBPMV21MGamAH44fg!2e0!5s20210501T000000!7i13312!8i6656!9m2!1b1!2i50",
+    "km": 1,
+    "position": [
+      -25.0635501,
+      -48.5654913
+    ],
+    "reference01": "Régis Bittencourt, km 1",
+    "reference02": "BR-116, km 1",
+    "reference03": "Régis Bittencourt BR-116, km 1",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0661086,-48.5778692,3a,75y,262.73h,66.35t/data=!3m7!1e1!3m5!1sTCwf_OigOME06vu2LdFYuw!2e0!5s20211001T000000!7i16384!8i8192",
+    "km": 2,
+    "position": [
+      -25.0661086,
+      -48.5778692
+    ],
+    "reference01": "Régis Bittencourt, km 2",
+    "reference02": "BR-116, km 2",
+    "reference03": "Régis Bittencourt BR-116, km 2",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0712055,-48.5854134,3a,75y,170.02h,79.2t/data=!3m10!1e1!3m8!1srxug_nyHS9JQO4vyToemEQ!2e0!5s20211001T000000!7i16384!8i8192!9m2!1b1!2i50",
+    "km": 3,
+    "position": [
+      -25.0712055,
+      -48.5854134
+    ],
+    "reference01": "Régis Bittencourt, km 3",
+    "reference02": "BR-116, km 3",
+    "reference03": "Régis Bittencourt BR-116, km 3",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0758868,-48.5932844,3a,75y,125.84h,76.16t/data=!3m10!1e1!3m8!1s7zvh6IcX7rtxIaWM1TxsSA!2e0!5s20211001T000000!7i16384!8i8192!9m2!1b1!2i50",
+    "km": 4,
+    "position": [
+      -25.0758868,
+      -48.5932844
+    ],
+    "reference01": "Régis Bittencourt, km 4",
+    "reference02": "BR-116, km 4",
+    "reference03": "Régis Bittencourt BR-116, km 4",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Guaraqueçaba-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0828051,-48.5997539,3a,77.6y,130.47h,92.8t/data=!3m7!1e1!3m5!1si9B4W0GyfrCTnNFF44g5JA!2e0!5s20211001T000000!7i16384!8i8192",
+    "km": 5,
+    "position": [
+      -25.0828051,
+      -48.5997539
+    ],
+    "reference01": "Régis Bittencourt, km 5",
+    "reference02": "BR-116, km 5",
+    "reference03": "Régis Bittencourt BR-116, km 5",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Guaraqueçaba-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0871917,-48.6076063,3a,48.2y,138.28h,77.44t/data=!3m10!1e1!3m8!1s6AsjTlZjpGy6zBuzn4JoCA!2e0!5s20211001T000000!7i16384!8i8192!9m2!1b1!2i50",
+    "km": 6,
+    "position": [
+      -25.0871917,
+      -48.6076063
+    ],
+    "reference01": "Régis Bittencourt, km 6",
+    "reference02": "BR-116, km 6",
+    "reference03": "Régis Bittencourt BR-116, km 6",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0823632,-48.6148289,3a,75y,174.06h,79.23t/data=!3m7!1e1!3m5!1sGec8XlFCtEwvqUNiLCbo-Q!2e0!5s20211001T000000!7i16384!8i8192",
+    "km": 7,
+    "position": [
+      -25.0823632,
+      -48.6148289
+    ],
+    "reference01": "Régis Bittencourt, km 7",
+    "reference02": "BR-116, km 7",
+    "reference03": "Régis Bittencourt BR-116, km 7",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0811392,-48.6240664,3a,85.7y,254.22h,79.38t/data=!3m10!1e1!3m8!1s0b1QOk-st0EpfA0CkdwbQQ!2e0!5s20211001T000000!7i16384!8i8192!9m2!1b1!2i50",
+    "km": 8,
+    "position": [
+      -25.0811392,
+      -48.6240664
+    ],
+    "reference01": "Régis Bittencourt, km 8",
+    "reference02": "BR-116, km 8",
+    "reference03": "Régis Bittencourt BR-116, km 8",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0830538,-48.6342455,3a,75y,186.74h,70.89t/data=!3m6!1e1!3m4!1sOundBeHADeUBcP1yTNYGuQ!2e0!7i16384!8i8192",
+    "km": 9,
+    "position": [
+      -25.0830538,
+      -48.6342455
+    ],
+    "reference01": "Régis Bittencourt, km 9",
+    "reference02": "BR-116, km 9",
+    "reference03": "Régis Bittencourt BR-116, km 9",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0831552,-48.6425494,3a,75y,157.87h,67.36t/data=!3m7!1e1!3m5!1s6ZivEkK_ihTuQwF_yUk48A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D6ZivEkK_ihTuQwF_yUk48A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D111.2641%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192",
+    "km": 10,
+    "position": [
+      -25.0831552,
+      -48.6425494
+    ],
+    "reference01": "Régis Bittencourt, km 10",
+    "reference02": "BR-116, km 10",
+    "reference03": "Régis Bittencourt BR-116, km 10",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0911635,-48.6476383,3a,75y,261.13h,76.65t/data=!3m6!1e1!3m4!1saTFzbAp0QpBYvYV6xxLwmA!2e0!7i16384!8i8192",
+    "km": 11,
+    "position": [
+      -25.0911635,
+      -48.6476383
+    ],
+    "reference01": "Régis Bittencourt, km 11",
+    "reference02": "BR-116, km 11",
+    "reference03": "Régis Bittencourt BR-116, km 11",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.09706,-48.6551166,3a,75y,254.18h,78.81t/data=!3m6!1e1!3m4!1sZmnlMc9RtD7nAQEmkUSMHQ!2e0!7i16384!8i8192",
+    "km": 12,
+    "position": [
+      -25.09706,
+      -48.6551166
+    ],
+    "reference01": "Régis Bittencourt, km 12",
+    "reference02": "BR-116, km 12",
+    "reference03": "Régis Bittencourt BR-116, km 12",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0964596,-48.664447,3a,75y,258.57h,61.25t/data=!3m6!1e1!3m4!1sL6k1G10wFPwbBimPQL9ryw!2e0!7i16384!8i8192",
+    "km": 13,
+    "position": [
+      -25.0964596,
+      -48.664447
+    ],
+    "reference01": "Régis Bittencourt, km 13",
+    "reference02": "BR-116, km 13",
+    "reference03": "Régis Bittencourt BR-116, km 13",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0982959,-48.6738013,3a,75y,236.94h,68.25t/data=!3m6!1e1!3m4!1sBvQ_NSMr8P-63WNuzCr7tQ!2e0!7i16384!8i8192",
+    "km": 14,
+    "position": [
+      -25.0982959,
+      -48.6738013
+    ],
+    "reference01": "Régis Bittencourt, km 14",
+    "reference02": "BR-116, km 14",
+    "reference03": "Régis Bittencourt BR-116, km 14",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0983824,-48.6826938,3a,75y,229.24h,76.07t/data=!3m6!1e1!3m4!1sp_karDi_BxcEqQaMTKiaRw!2e0!7i16384!8i8192",
+    "km": 15,
+    "position": [
+      -25.0983824,
+      -48.6826938
+    ],
+    "reference01": "Régis Bittencourt, km 15",
+    "reference02": "BR-116, km 15",
+    "reference03": "Régis Bittencourt BR-116, km 15",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.0997144,-48.6922838,3a,75y,225.28h,90t/data=!3m6!1e1!3m4!1sBLF8gxCPshJ1pgqBgOGAoA!2e0!7i16384!8i8192",
+    "km": 16,
+    "position": [
+      -25.0997144,
+      -48.6922838
+    ],
+    "reference01": "Régis Bittencourt, km 16",
+    "reference02": "BR-116, km 16",
+    "reference03": "Régis Bittencourt BR-116, km 16",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.10316,-48.7012503,3a,75y,203.69h,57.15t/data=!3m6!1e1!3m4!1s0huroQ4QL-UBkAWrhUsBaw!2e0!7i16384!8i8192",
+    "km": 17,
+    "position": [
+      -25.10316,
+      -48.7012503
+    ],
+    "reference01": "Régis Bittencourt, km 17",
+    "reference02": "BR-116, km 17",
+    "reference03": "Régis Bittencourt BR-116, km 17",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1040083,-48.7108701,3a,75y,281.97h,75.08t/data=!3m6!1e1!3m4!1slXuiSl0PQ1cqE7tXhlpSHA!2e0!7i16384!8i8192",
+    "km": 18,
+    "position": [
+      -25.1040083,
+      -48.7108701
+    ],
+    "reference01": "Régis Bittencourt, km 18",
+    "reference02": "BR-116, km 18",
+    "reference03": "Régis Bittencourt BR-116, km 18",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Antonina-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1031304,-48.7204187,3a,75y,319.46h,86.13t/data=!3m6!1e1!3m4!1stozOjZkzZei2IDr4ipBXCQ!2e0!7i16384!8i8192",
+    "km": 19,
+    "position": [
+      -25.1031304,
+      -48.7204187
+    ],
+    "reference01": "Régis Bittencourt, km 19",
+    "reference02": "BR-116, km 19",
+    "reference03": "Régis Bittencourt BR-116, km 19",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Antonina-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1005419,-48.7299203,3a,75y,295.48h,90t/data=!3m6!1e1!3m4!1sOjzdI7ubdTiFdgJDd9zc3A!2e0!7i16384!8i8192",
+    "km": 20,
+    "position": [
+      -25.1005419,
+      -48.7299203
+    ],
+    "reference01": "Régis Bittencourt, km 20",
+    "reference02": "BR-116, km 20",
+    "reference03": "Régis Bittencourt BR-116, km 20",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Antonina-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.104501,-48.7387325,3a,75y,210.86h,78.64t/data=!3m6!1e1!3m4!1sA17iSjAQj3bOe7YT35C6VQ!2e0!7i16384!8i8192",
+    "km": 21,
+    "position": [
+      -25.104501,
+      -48.7387325
+    ],
+    "reference01": "Régis Bittencourt, km 21",
+    "reference02": "BR-116, km 21",
+    "reference03": "Régis Bittencourt BR-116, km 21",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Antonina-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.109481,-48.7470349,3a,75y,252.44h,74.3t/data=!3m6!1e1!3m4!1sme20zgwfmPtXwsLB47RYLg!2e0!7i16384!8i8192",
+    "km": 22,
+    "position": [
+      -25.109481,
+      -48.7470349
+    ],
+    "reference01": "Régis Bittencourt, km 22",
+    "reference02": "BR-116, km 22",
+    "reference03": "Régis Bittencourt BR-116, km 22",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Antonina-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1104004,-48.7563995,3a,75y,284.83h,80.71t/data=!3m6!1e1!3m4!1sb1q1CnYK0BOnZxeSfo1qEA!2e0!7i16384!8i8192",
+    "km": 23,
+    "position": [
+      -25.1104004,
+      -48.7563995
+    ],
+    "reference01": "Régis Bittencourt, km 23",
+    "reference02": "BR-116, km 23",
+    "reference03": "Régis Bittencourt BR-116, km 23",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Antonina-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1088364,-48.7661396,3a,75y,273.74h,83.81t/data=!3m6!1e1!3m4!1sFwhU9LTNLS2dgIXqam7ySw!2e0!7i16384!8i8192",
+    "km": 24,
+    "position": [
+      -25.1088364,
+      -48.7661396
+    ],
+    "reference01": "Régis Bittencourt, km 24",
+    "reference02": "BR-116, km 24",
+    "reference03": "Régis Bittencourt BR-116, km 24",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1078451,-48.7758583,3a,75y,273.13h,54.39t/data=!3m6!1e1!3m4!1serJO6q64gEg2XSPaM0Zt-g!2e0!7i16384!8i8192",
+    "km": 25,
+    "position": [
+      -25.1078451,
+      -48.7758583
+    ],
+    "reference01": "Régis Bittencourt, km 25",
+    "reference02": "BR-116, km 25",
+    "reference03": "Régis Bittencourt BR-116, km 25",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1068598,-48.7857068,3a,75y,265.59h,54.19t/data=!3m7!1e1!3m5!1s0oyOoeDnnQOGuzyPtxBeJA!2e0!5s20211001T000000!7i16384!8i8192",
+    "km": 26,
+    "position": [
+      -25.1068598,
+      -48.7857068
+    ],
+    "reference01": "Régis Bittencourt, km 26",
+    "reference02": "BR-116, km 26",
+    "reference03": "Régis Bittencourt BR-116, km 26",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1084761,-48.7953327,3a,75y,237.06h,75.86t/data=!3m6!1e1!3m4!1sJYixv1fi2abgKm9S_bsF5Q!2e0!7i16384!8i8192",
+    "km": 27,
+    "position": [
+      -25.1084761,
+      -48.7953327
+    ],
+    "reference01": "Régis Bittencourt, km 27",
+    "reference02": "BR-116, km 27",
+    "reference03": "Régis Bittencourt BR-116, km 27",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1065848,-48.804317,3a,75y,318.14h,69.01t/data=!3m6!1e1!3m4!1s_Ahy73ZxxoN6ZNha6sa89w!2e0!7i16384!8i8192",
+    "km": 28,
+    "position": [
+      -25.1065848,
+      -48.804317
+    ],
+    "reference01": "Régis Bittencourt, km 28",
+    "reference02": "BR-116, km 28",
+    "reference03": "Régis Bittencourt BR-116, km 28",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1003724,-48.8116385,3a,75y,261.27h,56.32t/data=!3m6!1e1!3m4!1s1FWEoXU7_4WVrYsnYNZECw!2e0!7i16384!8i8192",
+    "km": 29,
+    "position": [
+      -25.1003724,
+      -48.8116385
+    ],
+    "reference01": "Régis Bittencourt, km 29",
+    "reference02": "BR-116, km 29",
+    "reference03": "Régis Bittencourt BR-116, km 29",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1000702,-48.821475,3a,75y,212.03h,54.47t/data=!3m6!1e1!3m4!1sX4vz_kWvrQkZgLIzMTWOlg!2e0!7i16384!8i8192",
+    "km": 30,
+    "position": [
+      -25.1000702,
+      -48.821475
+    ],
+    "reference01": "Régis Bittencourt, km 30",
+    "reference02": "BR-116, km 30",
+    "reference03": "Régis Bittencourt BR-116, km 30",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1017501,-48.8310934,3a,75y,207.17h,59.11t/data=!3m6!1e1!3m4!1s4kTsx-nezvW70LlIrUDPpA!2e0!7i16384!8i8192",
+    "km": 31,
+    "position": [
+      -25.1017501,
+      -48.8310934
+    ],
+    "reference01": "Régis Bittencourt, km 31",
+    "reference02": "BR-116, km 31",
+    "reference03": "Régis Bittencourt BR-116, km 31",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1050363,-48.8401945,3a,75y,257.79h,76.91t/data=!3m6!1e1!3m4!1s1Kmm3BNVypsvQ59cwq33Sw!2e0!7i16384!8i8192",
+    "km": 32,
+    "position": [
+      -25.1050363,
+      -48.8401945
+    ],
+    "reference01": "Régis Bittencourt, km 32",
+    "reference02": "BR-116, km 32",
+    "reference03": "Régis Bittencourt BR-116, km 32",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1068209,-48.8493183,3a,75y,180.24h,54.82t/data=!3m6!1e1!3m4!1snjSKEM_19H1zaPDtv5JiYA!2e0!7i16384!8i8192",
+    "km": 33,
+    "position": [
+      -25.1068209,
+      -48.8493183
+    ],
+    "reference01": "Régis Bittencourt, km 33",
+    "reference02": "BR-116, km 33",
+    "reference03": "Régis Bittencourt BR-116, km 33",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1144835,-48.8537345,3a,57.7y,178.52h,87.19t/data=!3m6!1e1!3m4!1sFV-D7zotC_UFyWcGrm2K1Q!2e0!7i16384!8i8192",
+    "km": 34,
+    "position": [
+      -25.1144835,
+      -48.8537345
+    ],
+    "reference01": "Régis Bittencourt, km 34",
+    "reference02": "BR-116, km 34",
+    "reference03": "Régis Bittencourt BR-116, km 34",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1234965,-48.8562571,3a,75y,204.32h,78.22t/data=!3m6!1e1!3m4!1sATxI-KZkY1F6TPn_34uDZg!2e0!7i16384!8i8192",
+    "km": 35,
+    "position": [
+      -25.1234965,
+      -48.8562571
+    ],
+    "reference01": "Régis Bittencourt, km 35",
+    "reference02": "BR-116, km 35",
+    "reference03": "Régis Bittencourt BR-116, km 35",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1324437,-48.8573681,3a,75y,189.77h,83.88t/data=!3m6!1e1!3m4!1sz1MRpKUW2fPJQtoUuDOMWA!2e0!7i16384!8i8192",
+    "km": 36,
+    "position": [
+      -25.1324437,
+      -48.8573681
+    ],
+    "reference01": "Régis Bittencourt, km 36",
+    "reference02": "BR-116, km 36",
+    "reference03": "Régis Bittencourt BR-116, km 36",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1414754,-48.8564035,3a,75y,111.69h,63.19t/data=!3m6!1e1!3m4!1sqoG2C4sDGyMxHoMDFeYw6A!2e0!7i16384!8i8192",
+    "km": 37,
+    "position": [
+      -25.1414754,
+      -48.8564035
+    ],
+    "reference01": "Régis Bittencourt, km 37",
+    "reference02": "BR-116, km 37",
+    "reference03": "Régis Bittencourt BR-116, km 37",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1500941,-48.859364,3a,75y,172.57h,86.57t/data=!3m6!1e1!3m4!1sJ_8eZzJDvFn-X87Ajvwuyg!2e0!7i16384!8i8192",
+    "km": 38,
+    "position": [
+      -25.1500941,
+      -48.859364
+    ],
+    "reference01": "Régis Bittencourt, km 38",
+    "reference02": "BR-116, km 38",
+    "reference03": "Régis Bittencourt BR-116, km 38",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1588381,-48.8619574,3a,75y,62.98h,63.42t/data=!3m6!1e1!3m4!1shBXtZqL6uAhSOEAC87_IbA!2e0!7i16384!8i8192",
+    "km": 39,
+    "position": [
+      -25.1588381,
+      -48.8619574
+    ],
+    "reference01": "Régis Bittencourt, km 39",
+    "reference02": "BR-116, km 39",
+    "reference03": "Régis Bittencourt BR-116, km 39",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1667768,-48.8646936,3a,75y,128.11h,59.15t/data=!3m6!1e1!3m4!1smwXvAOkUa-Y4aSGXv35OAQ!2e0!7i16384!8i8192",
+    "km": 40,
+    "position": [
+      -25.1667768,
+      -48.8646936
+    ],
+    "reference01": "Régis Bittencourt, km 40",
+    "reference02": "BR-116, km 40",
+    "reference03": "Régis Bittencourt BR-116, km 40",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1746635,-48.8689272,3a,75y,247.81h,80.81t/data=!3m6!1e1!3m4!1s5MlPX2Re2v5Yc1gDNe23nA!2e0!7i16384!8i8192",
+    "km": 41,
+    "position": [
+      -25.1746635,
+      -48.8689272
+    ],
+    "reference01": "Régis Bittencourt, km 41",
+    "reference02": "BR-116, km 41",
+    "reference03": "Régis Bittencourt BR-116, km 41",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.176891,-48.8779631,3a,75y,215.59h,59.97t/data=!3m6!1e1!3m4!1s5-FfzDifl7FkchJQ__Mk5A!2e0!7i16384!8i8192",
+    "km": 42,
+    "position": [
+      -25.176891,
+      -48.8779631
+    ],
+    "reference01": "Régis Bittencourt, km 42",
+    "reference02": "BR-116, km 42",
+    "reference03": "Régis Bittencourt BR-116, km 42",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1830564,-48.8848536,3a,75y,218.82h,83.12t/data=!3m6!1e1!3m4!1sadLzOepa-R9IiGrfA1XlIA!2e0!7i16384!8i8192",
+    "km": 43,
+    "position": [
+      -25.1830564,
+      -48.8848536
+    ],
+    "reference01": "Régis Bittencourt, km 43",
+    "reference02": "BR-116, km 43",
+    "reference03": "Régis Bittencourt BR-116, km 43",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1912267,-48.8851723,3a,75y,208.06h,79.77t/data=!3m6!1e1!3m4!1s2v7G6LGjrWnU8dlVNX0SIA!2e0!7i16384!8i8192",
+    "km": 44,
+    "position": [
+      -25.1912267,
+      -48.8851723
+    ],
+    "reference01": "Régis Bittencourt, km 44",
+    "reference02": "BR-116, km 44",
+    "reference03": "Régis Bittencourt BR-116, km 44",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.1968612,-48.8926327,3a,75y,245.38h,71.84t/data=!3m6!1e1!3m4!1sCGt1QmSeG1rKb9KMdlPMEQ!2e0!7i16384!8i8192",
+    "km": 45,
+    "position": [
+      -25.1968612,
+      -48.8926327
+    ],
+    "reference01": "Régis Bittencourt, km 45",
+    "reference02": "BR-116, km 45",
+    "reference03": "Régis Bittencourt BR-116, km 45",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2047405,-48.8955539,3a,75y,157.58h,82.82t/data=!3m6!1e1!3m4!1sN5NKaEIpPa9EvpDNeuG0bw!2e0!7i16384!8i8192",
+    "km": 46,
+    "position": [
+      -25.2047405,
+      -48.8955539
+    ],
+    "reference01": "Régis Bittencourt, km 46",
+    "reference02": "BR-116, km 46",
+    "reference03": "Régis Bittencourt BR-116, km 46",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2118366,-48.8978584,3a,75y,160.22h,51.55t/data=!3m6!1e1!3m4!1sChXCdwvM74A8tveEqztGNQ!2e0!7i16384!8i8192",
+    "km": 47,
+    "position": [
+      -25.2118366,
+      -48.8978584
+    ],
+    "reference01": "Régis Bittencourt, km 47",
+    "reference02": "BR-116, km 47",
+    "reference03": "Régis Bittencourt BR-116, km 47",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2196303,-48.9047898,3a,75y,120.31h,71.8t/data=!3m6!1e1!3m4!1sBAzRhAMop6Rz4CzeWJqt4A!2e0!7i16384!8i8192",
+    "km": 48,
+    "position": [
+      -25.2196303,
+      -48.9047898
+    ],
+    "reference01": "Régis Bittencourt, km 48",
+    "reference02": "BR-116, km 48",
+    "reference03": "Régis Bittencourt BR-116, km 48",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2284422,-48.9076184,3a,75y,152.24h,79.09t/data=!3m6!1e1!3m4!1sX_rW3bcf3J_p0xJ9AbsZRg!2e0!7i16384!8i8192",
+    "km": 49,
+    "position": [
+      -25.2284422,
+      -48.9076184
+    ],
+    "reference01": "Régis Bittencourt, km 49",
+    "reference02": "BR-116, km 49",
+    "reference03": "Régis Bittencourt BR-116, km 49",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2373813,-48.9070989,3a,75y,146.51h,79.5t/data=!3m6!1e1!3m4!1sAZRB8-1hFGhBPfuQe67R0g!2e0!7i16384!8i8192",
+    "km": 50,
+    "position": [
+      -25.2373813,
+      -48.9070989
+    ],
+    "reference01": "Régis Bittencourt, km 50",
+    "reference02": "BR-116, km 50",
+    "reference03": "Régis Bittencourt BR-116, km 50",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2449294,-48.902929,3a,75y,212.02h,95.92t/data=!3m6!1e1!3m4!1sfHWkG9F5vjYKy_Tx38Xbkw!2e0!7i16384!8i8192",
+    "km": 51,
+    "position": [
+      -25.2449294,
+      -48.902929
+    ],
+    "reference01": "Régis Bittencourt, km 51",
+    "reference02": "BR-116, km 51",
+    "reference03": "Régis Bittencourt BR-116, km 51",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2508408,-48.9099447,3a,75y,206.54h,80.27t/data=!3m6!1e1!3m4!1sOYgp9xyS8I_UPGQYSzIxkA!2e0!7i16384!8i8192",
+    "km": 52,
+    "position": [
+      -25.2508408,
+      -48.9099447
+    ],
+    "reference01": "Régis Bittencourt, km 52",
+    "reference02": "BR-116, km 52",
+    "reference03": "Régis Bittencourt BR-116, km 52",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2591474,-48.9138193,3a,75y,119.51h,75.39t/data=!3m6!1e1!3m4!1sODVqxR-JN5qY0ux5NdGPPQ!2e0!7i16384!8i8192",
+    "km": 53,
+    "position": [
+      -25.2591474,
+      -48.9138193
+    ],
+    "reference01": "Régis Bittencourt, km 53",
+    "reference02": "BR-116, km 53",
+    "reference03": "Régis Bittencourt BR-116, km 53",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2675964,-48.9174194,3a,75y,134.24h,76.7t/data=!3m6!1e1!3m4!1scMlewYpZOlhevzM5QXmlUQ!2e0!7i16384!8i8192",
+    "km": 54,
+    "position": [
+      -25.2675964,
+      -48.9174194
+    ],
+    "reference01": "Régis Bittencourt, km 54",
+    "reference02": "BR-116, km 54",
+    "reference03": "Régis Bittencourt BR-116, km 54",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2750998,-48.922951,3a,75y,51.48h,90.95t/data=!3m6!1e1!3m4!1sgdlOqLC6Dr2jP9Ux9Yrz9w!2e0!7i16384!8i8192",
+    "km": 55,
+    "position": [
+      -25.2750998,
+      -48.922951
+    ],
+    "reference01": "Régis Bittencourt, km 55",
+    "reference02": "BR-116, km 55",
+    "reference03": "Régis Bittencourt BR-116, km 55",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2825392,-48.9284791,3a,75y,65.72h,85.59t/data=!3m6!1e1!3m4!1sG6CL6sluovcVSOtW51JZWQ!2e0!7i16384!8i8192",
+    "km": 56,
+    "position": [
+      -25.2825392,
+      -48.9284791
+    ],
+    "reference01": "Régis Bittencourt, km 56",
+    "reference02": "BR-116, km 56",
+    "reference03": "Régis Bittencourt BR-116, km 56",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2906103,-48.9343687,3a,75y,193.33h,90t/data=!3m7!1e1!3m5!1sNFdIRTHkx5lpdxbgh0-f9A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DNFdIRTHkx5lpdxbgh0-f9A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D282.16446%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192",
+    "km": 57,
+    "position": [
+      -25.2906103,
+      -48.9343687
+    ],
+    "reference01": "Régis Bittencourt, km 57",
+    "reference02": "BR-116, km 57",
+    "reference03": "Régis Bittencourt BR-116, km 57",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.2972917,-48.939336,3a,75y,203.59h,68.53t/data=!3m6!1e1!3m4!1sdvQlZGUpk_ZMM5g4wd1PkQ!2e0!7i16384!8i8192",
+    "km": 58,
+    "position": [
+      -25.2972917,
+      -48.939336
+    ],
+    "reference01": "Régis Bittencourt, km 58",
+    "reference02": "BR-116, km 58",
+    "reference03": "Régis Bittencourt BR-116, km 58",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3043374,-48.9451242,3a,75y,244.85h,86.02t/data=!3m6!1e1!3m4!1sL-PRBOwTjv_LHhf2ekH5_g!2e0!7i16384!8i8192",
+    "km": 59,
+    "position": [
+      -25.3043374,
+      -48.9451242
+    ],
+    "reference01": "Régis Bittencourt, km 59",
+    "reference02": "BR-116, km 59",
+    "reference03": "Régis Bittencourt BR-116, km 59",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3041657,-48.9547914,3a,75y,290.01h,68.36t/data=!3m6!1e1!3m4!1sycM4WENGngbgI8P8PkJxLw!2e0!7i16384!8i8192",
+    "km": 60,
+    "position": [
+      -25.3041657,
+      -48.9547914
+    ],
+    "reference01": "Régis Bittencourt, km 60",
+    "reference02": "BR-116, km 60",
+    "reference03": "Régis Bittencourt BR-116, km 60",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.302893,-48.964586,3a,25.6y,128.04h,78.29t/data=!3m6!1e1!3m4!1sEg_f-0ikKP7ySHlpjuJL0A!2e0!7i16384!8i8192",
+    "km": 61,
+    "position": [
+      -25.302893,
+      -48.964586
+    ],
+    "reference01": "Régis Bittencourt, km 61",
+    "reference02": "BR-116, km 61",
+    "reference03": "Régis Bittencourt BR-116, km 61",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3058472,-48.973903,3a,90y,80.26h,79.03t/data=!3m6!1e1!3m4!1sg_WzXXi7TMoRVQ6Z1INwzg!2e0!7i16384!8i8192",
+    "km": 62,
+    "position": [
+      -25.3058472,
+      -48.973903
+    ],
+    "reference01": "Régis Bittencourt, km 62",
+    "reference02": "BR-116, km 62",
+    "reference03": "Régis Bittencourt BR-116, km 62",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.307798,-48.9833755,3a,75y,165.09h,72.41t/data=!3m6!1e1!3m4!1sS8zjw2w-HYa7KuCRwXQMIw!2e0!7i16384!8i8192",
+    "km": 63,
+    "position": [
+      -25.307798,
+      -48.9833755
+    ],
+    "reference01": "Régis Bittencourt, km 63",
+    "reference02": "BR-116, km 63",
+    "reference03": "Régis Bittencourt BR-116, km 63",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3061991,-48.9931934,3a,73.2y,126.69h,82.74t/data=!3m6!1e1!3m4!1siuF4DT0qckBNJXfo5v3F9A!2e0!7i16384!8i8192",
+    "km": 64,
+    "position": [
+      -25.3061991,
+      -48.9931934
+    ],
+    "reference01": "Régis Bittencourt, km 64",
+    "reference02": "BR-116, km 64",
+    "reference03": "Régis Bittencourt BR-116, km 64",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3100942,-49.001686,3a,75y,104.38h,89.52t/data=!3m6!1e1!3m4!1sUYvHJtvOHUhyKJ9XYAGA7Q!2e0!7i16384!8i8192",
+    "km": 65,
+    "position": [
+      -25.3100942,
+      -49.001686
+    ],
+    "reference01": "Régis Bittencourt, km 65",
+    "reference02": "BR-116, km 65",
+    "reference03": "Régis Bittencourt BR-116, km 65",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3102333,-49.0100895,3a,75y,87.7h,71.21t/data=!3m6!1e1!3m4!1sVX6T2iMf1qz599jG6L1n2A!2e0!7i16384!8i8192",
+    "km": 66,
+    "position": [
+      -25.3102333,
+      -49.0100895
+    ],
+    "reference01": "Régis Bittencourt, km 66",
+    "reference02": "BR-116, km 66",
+    "reference03": "Régis Bittencourt BR-116, km 66",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3157315,-49.0180709,3a,75y,266.36h,62.49t/data=!3m6!1e1!3m4!1sKbtCtQJ9MlrDZ5Uwvg3HbQ!2e0!7i16384!8i8192",
+    "km": 67,
+    "position": [
+      -25.3157315,
+      -49.0180709
+    ],
+    "reference01": "Régis Bittencourt, km 67",
+    "reference02": "BR-116, km 67",
+    "reference03": "Régis Bittencourt BR-116, km 67",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3223429,-49.0242549,3a,75y,83.76h,84.84t/data=!3m6!1e1!3m4!1sKWgQrGBnOLVwRk1BECk85w!2e0!7i16384!8i8192",
+    "km": 68,
+    "position": [
+      -25.3223429,
+      -49.0242549
+    ],
+    "reference01": "Régis Bittencourt, km 68",
+    "reference02": "BR-116, km 68",
+    "reference03": "Régis Bittencourt BR-116, km 68",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/@-25.3295998,-49.0302214,3a,75y,225.72h,71.26t/data=!3m6!1e1!3m4!1s4x891kDn5_pMViqB2rPYaQ!2e0!7i16384!8i8192",
+    "km": 69,
+    "position": [
+      -25.3295998,
+      -49.0302214
+    ],
+    "reference01": "Régis Bittencourt, km 69",
+    "reference02": "BR-116, km 69",
+    "reference03": "Régis Bittencourt BR-116, km 69",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.114816, -48.853917",
+    "km": 34,
+    "position": [
+      -25.114816,
+      -48.853917
+    ],
+    "reference01": "Régis Bittencourt, km 34",
+    "reference02": "BR-116, km 34",
+    "reference03": "Régis Bittencourt BR-116, km 34",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.123443, -48.856277",
+    "km": 35,
+    "position": [
+      -25.123443,
+      -48.856277
+    ],
+    "reference01": "Régis Bittencourt, km 35",
+    "reference02": "BR-116, km 35",
+    "reference03": "Régis Bittencourt BR-116, km 35",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.132535, -48.857822",
+    "km": 36,
+    "position": [
+      -25.132535,
+      -48.857822
+    ],
+    "reference01": "Régis Bittencourt, km 36",
+    "reference02": "BR-116, km 36",
+    "reference03": "Régis Bittencourt BR-116, km 36",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.141549, -48.856963",
+    "km": 37,
+    "position": [
+      -25.141549,
+      -48.856963
+    ],
+    "reference01": "Régis Bittencourt, km 37",
+    "reference02": "BR-116, km 37",
+    "reference03": "Régis Bittencourt BR-116, km 37",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.149862, -48.859710",
+    "km": 38,
+    "position": [
+      -25.149862,
+      -48.85971
+    ],
+    "reference01": "Régis Bittencourt, km 38",
+    "reference02": "BR-116, km 38",
+    "reference03": "Régis Bittencourt BR-116, km 38",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.159018, -48.862582",
+    "km": 39,
+    "position": [
+      -25.159018,
+      -48.862582
+    ],
+    "reference01": "Régis Bittencourt, km 39",
+    "reference02": "BR-116, km 39",
+    "reference03": "Régis Bittencourt BR-116, km 39",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Campina Grande do Sul-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.166269, -48.865376",
+    "km": 40,
+    "position": [
+      -25.166269,
+      -48.865376
+    ],
+    "reference01": "Régis Bittencourt, km 40",
+    "reference02": "BR-116, km 40",
+    "reference03": "Régis Bittencourt BR-116, km 40",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "Quatro Barras-PR",
+    "direction": "Sul",
+    "ggOriginLink": "-25.174399, -48.869506",
+    "km": 41,
+    "position": [
+      -25.174399,
+      -48.869506
+    ],
+    "reference01": "Régis Bittencourt, km 41",
+    "reference02": "BR-116, km 41",
+    "reference03": "Régis Bittencourt BR-116, km 41",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.1789909,-48.8741026,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 42,
+    "reference01": "Régis Bittencourt, km 42",
+    "reference02": "BR-116, km 42",
+    "reference03": "Régis Bittencourt BR-116, km 42",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.17749,
+      -48.87886
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.1843504,-48.8808618,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 43,
+    "reference01": "Régis Bittencourt, km 43",
+    "reference02": "BR-116, km 43",
+    "reference03": "Régis Bittencourt BR-116, km 43",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.18351,
+      -48.88529
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.1908941,-48.8837586,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 44,
+    "reference01": "Régis Bittencourt, km 44",
+    "reference02": "BR-116, km 44",
+    "reference03": "Régis Bittencourt BR-116, km 44",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.19187,
+      -48.88622
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.1950492,-48.887342,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 45,
+    "reference01": "Régis Bittencourt, km 45",
+    "reference02": "BR-116, km 45",
+    "reference03": "Régis Bittencourt BR-116, km 45",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.19752,
+      -48.89362
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2025243,-48.8907108,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 46,
+    "reference01": "Régis Bittencourt, km 46",
+    "reference02": "BR-116, km 46",
+    "reference03": "Régis Bittencourt BR-116, km 46",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.20578,
+      -48.89544
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2103483,-48.8936505,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 47,
+    "reference01": "Régis Bittencourt, km 47",
+    "reference02": "BR-116, km 47",
+    "reference03": "Régis Bittencourt BR-116, km 47",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.21327,
+      -48.89999
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2173565,-48.8995299,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 48,
+    "reference01": "Régis Bittencourt, km 48",
+    "reference02": "BR-116, km 48",
+    "reference03": "Régis Bittencourt BR-116, km 48",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.21999,
+      -48.9051
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2263637,-48.9024482,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 49,
+    "reference01": "Régis Bittencourt, km 49",
+    "reference02": "BR-116, km 49",
+    "reference03": "Régis Bittencourt BR-116, km 49",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.22923,
+      -48.908
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2347102,-48.9027486,16z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 50,
+    "reference01": "Régis Bittencourt, km 50",
+    "reference02": "BR-116, km 50",
+    "reference03": "Régis Bittencourt BR-116, km 50",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.23784,
+      -48.90694
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2440233,-48.902833,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 51,
+    "reference01": "Régis Bittencourt, km 51",
+    "reference02": "BR-116, km 51",
+    "reference03": "Régis Bittencourt BR-116, km 51",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.24509,
+      -48.90311
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2521064,-48.9100553,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 52,
+    "reference01": "Régis Bittencourt, km 52",
+    "reference02": "BR-116, km 52",
+    "reference03": "Régis Bittencourt BR-116, km 52",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.25091,
+      -48.90996
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2591186,-48.9139092,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 53,
+    "reference01": "Régis Bittencourt, km 53",
+    "reference02": "BR-116, km 53",
+    "reference03": "Régis Bittencourt BR-116, km 53",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.25973,
+      -48.91401
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2666323,-48.9195079,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 54,
+    "reference01": "Régis Bittencourt, km 54",
+    "reference02": "BR-116, km 54",
+    "reference03": "Régis Bittencourt BR-116, km 54",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.26802,
+      -48.91776
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2731249,-48.9237348,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 55,
+    "reference01": "Régis Bittencourt, km 55",
+    "reference02": "BR-116, km 55",
+    "reference03": "Régis Bittencourt BR-116, km 55",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.27552,
+      -48.92333
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2812602,-48.9303967,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 56,
+    "reference01": "Régis Bittencourt, km 56",
+    "reference02": "BR-116, km 56",
+    "reference03": "Régis Bittencourt BR-116, km 56",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.28284,
+      -48.92867
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2919355,-48.9365284,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 57,
+    "reference01": "Régis Bittencourt, km 57",
+    "reference02": "BR-116, km 57",
+    "reference03": "Régis Bittencourt BR-116, km 57",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.29027,
+      -48.9344
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.2947751,-48.938425,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 58,
+    "reference01": "Régis Bittencourt, km 58",
+    "reference02": "BR-116, km 58",
+    "reference03": "Régis Bittencourt BR-116, km 58",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.29743,
+      -48.93946
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.3002209,-48.9428706,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 59,
+    "reference01": "Régis Bittencourt, km 59",
+    "reference02": "BR-116, km 59",
+    "reference03": "Régis Bittencourt BR-116, km 59",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.30437,
+      -48.94523
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.3023106,-48.9553895,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 60,
+    "reference01": "Régis Bittencourt, km 60",
+    "reference02": "BR-116, km 60",
+    "reference03": "Régis Bittencourt BR-116, km 60",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.30414,
+      -48.95452
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.3007331,-48.9595621,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 61,
+    "reference01": "Régis Bittencourt, km 61",
+    "reference02": "BR-116, km 61",
+    "reference03": "Régis Bittencourt BR-116, km 61",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.30277,
+      -48.96453
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.3049855,-48.9766467,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 62,
+    "reference01": "Régis Bittencourt, km 62",
+    "reference02": "BR-116, km 62",
+    "reference03": "Régis Bittencourt BR-116, km 62",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.30575,
+      -48.97377
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com.br/maps/dir/-25.0597402,+++++++-48.5620091/-25.3432073,-49.0425186/@-25.3061514,-48.9828069,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 63,
+    "reference01": "Régis Bittencourt, km 63",
+    "reference02": "BR-116, km 63",
+    "reference03": "Régis Bittencourt BR-116, km 63",
+    "rod": "Régis Bittencourt",
+    "position": [
+      -25.30768,
+      -48.98371
+    ]
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3061198,-48.9904892,16.75z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 64,
+    "position": [
+      -25.30633,
+      -48.99267
+    ],
+    "reference01": "Régis Bittencourt, km 64",
+    "reference02": "BR-116, km 64",
+    "reference03": "Régis Bittencourt BR-116, km 64",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3101657,-49.0018749,17.75z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 65,
+    "position": [
+      -25.30976,
+      -49.00125
+    ],
+    "reference01": "Régis Bittencourt, km 65",
+    "reference02": "BR-116, km 65",
+    "reference03": "Régis Bittencourt BR-116, km 65",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3101308,-49.0089916,17.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 66,
+    "position": [
+      -25.31025,
+      -49.01094
+    ],
+    "reference01": "Régis Bittencourt, km 66",
+    "reference02": "BR-116, km 66",
+    "reference03": "Régis Bittencourt BR-116, km 66",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3138125,-49.0155286,17.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 67,
+    "position": [
+      -25.31474,
+      -49.01776
+    ],
+    "reference01": "Régis Bittencourt, km 67",
+    "reference02": "BR-116, km 67",
+    "reference03": "Régis Bittencourt BR-116, km 67",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3202725,-49.0209429,17.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 68,
+    "position": [
+      -25.32212,
+      -49.02415
+    ],
+    "reference01": "Régis Bittencourt, km 68",
+    "reference02": "BR-116, km 68",
+    "reference03": "Régis Bittencourt BR-116, km 68",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3254254,-49.0264165,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 69,
+    "position": [
+      -25.32927,
+      -49.03013
+    ],
+    "reference01": "Régis Bittencourt, km 69",
+    "reference02": "BR-116, km 69",
+    "reference03": "Régis Bittencourt BR-116, km 69",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3323275,-49.0310456,16.5z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 70,
+    "position": [
+      -25.33656,
+      -49.03622
+    ],
+    "reference01": "Régis Bittencourt, km 70",
+    "reference02": "BR-116, km 70",
+    "reference03": "Régis Bittencourt BR-116, km 70",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3427478,-49.0418543,18.75z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 71,
+    "position": [
+      -25.34364,
+      -49.04291
+    ],
+    "reference01": "Régis Bittencourt, km 71",
+    "reference02": "BR-116, km 71",
+    "reference03": "Régis Bittencourt BR-116, km 71",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.0597402,+++++++-48.5620091/-25.3436757,-49.0429798/@-25.3427478,-49.0418543,18.75z/data=!4m9!4m8!1m5!1m1!1s0x0:0x21947a23b68dac9c!2m2!1d-48.5621499!2d-25.0597753!1m0!3e0",
+    "km": 0,
+    "position": [
+      -25.34364,
+      -49.04291
+    ],
+    "reference01": "Régis Bittencourt, km 0",
+    "reference02": "BR-116, km 0",
+    "reference03": "Régis Bittencourt BR-116, km 0",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.356671522869057,+-49.06900475042578/@-25.3472181,-49.0494694,18z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.0690048!2d-25.3566715!3e0",
+    "km": 1,
+    "position": [
+      -25.34833,
+      -49.05115
+    ],
+    "reference01": "Régis Bittencourt, km 1",
+    "reference02": "BR-116, km 1",
+    "reference03": "Régis Bittencourt BR-116, km 1",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.356671522869057,+-49.06900475042578/@-25.351653,-49.0595694,17.5z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.0690048!2d-25.3566715!3e0",
+    "km": 2,
+    "position": [
+      -25.35173,
+      -49.06078
+    ],
+    "reference01": "Régis Bittencourt, km 2",
+    "reference02": "BR-116, km 2",
+    "reference03": "Régis Bittencourt BR-116, km 2",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.356671522869057,+-49.06900475042578/@-25.3553345,-49.0658662,17.5z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.0690048!2d-25.3566715!3e0",
+    "km": 3,
+    "position": [
+      -25.35665,
+      -49.06893
+    ],
+    "reference01": "Régis Bittencourt, km 3",
+    "reference02": "BR-116, km 3",
+    "reference03": "Régis Bittencourt BR-116, km 3",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3611148,-49.0806494,16z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 4,
+    "position": [
+      -25.36085,
+      -49.07825
+    ],
+    "reference01": "Régis Bittencourt, km 4",
+    "reference02": "BR-116, km 4",
+    "reference03": "Régis Bittencourt BR-116, km 4",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3630537,-49.0853915,16z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 5,
+    "position": [
+      -25.36448,
+      -49.0873
+    ],
+    "reference01": "Régis Bittencourt, km 5",
+    "reference02": "BR-116, km 5",
+    "reference03": "Régis Bittencourt BR-116, km 5",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3659524,-49.0973583,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 6,
+    "position": [
+      -25.36633,
+      -49.09714
+    ],
+    "reference01": "Régis Bittencourt, km 6",
+    "reference02": "BR-116, km 6",
+    "reference03": "Régis Bittencourt BR-116, km 6",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.369019,-49.1047711,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 7,
+    "position": [
+      -25.36807,
+      -49.10667
+    ],
+    "reference01": "Régis Bittencourt, km 7",
+    "reference02": "BR-116, km 7",
+    "reference03": "Régis Bittencourt BR-116, km 7",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3705071,-49.115563,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 8,
+    "position": [
+      -25.36959,
+      -49.11648
+    ],
+    "reference01": "Régis Bittencourt, km 8",
+    "reference02": "BR-116, km 8",
+    "reference03": "Régis Bittencourt BR-116, km 8",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3718559,-49.1253235,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 9,
+    "position": [
+      -25.37085,
+      -49.12648
+    ],
+    "reference01": "Régis Bittencourt, km 9",
+    "reference02": "BR-116, km 9",
+    "reference03": "Régis Bittencourt BR-116, km 9",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3729955,-49.136532,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 10,
+    "position": [
+      -25.3721,
+      -49.13699
+    ],
+    "reference01": "Régis Bittencourt, km 10",
+    "reference02": "BR-116, km 10",
+    "reference03": "Régis Bittencourt BR-116, km 10",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3744582,-49.1453238,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 11,
+    "position": [
+      -25.37374,
+      -49.14573
+    ],
+    "reference01": "Régis Bittencourt, km 11",
+    "reference02": "BR-116, km 11",
+    "reference03": "Régis Bittencourt BR-116, km 11",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.378236,-49.1521898,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 12,
+    "position": [
+      -25.3776,
+      -49.15479
+    ],
+    "reference01": "Régis Bittencourt, km 12",
+    "reference02": "BR-116, km 12",
+    "reference03": "Régis Bittencourt BR-116, km 12",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3810267,-49.1601117,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 13,
+    "position": [
+      -25.38161,
+      -49.16399
+    ],
+    "reference01": "Régis Bittencourt, km 13",
+    "reference02": "BR-116, km 13",
+    "reference03": "Régis Bittencourt BR-116, km 13",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.34364,+++++++-49.04291/-25.38863938359847,+-49.20485574571622/@-25.3846808,-49.1690174,16.75z/data=!4m10!4m9!1m3!2m2!1d-49.04291!2d-25.34364!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 14,
+    "position": [
+      -25.38546,
+      -49.17305
+    ],
+    "reference01": "Régis Bittencourt, km 14",
+    "reference02": "BR-116, km 14",
+    "reference03": "Régis Bittencourt BR-116, km 14",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.3329064,-49.0330635/-25.38863938359847,+-49.20485574571622/@-25.3862887,-49.1765833,17.13z/data=!4m7!4m6!1m0!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 16,
+    "position": [
+      -25.38692,
+      -49.17641
+    ],
+    "reference01": "Régis Bittencourt, km 16",
+    "reference02": "BR-116, km 16",
+    "reference03": "Régis Bittencourt BR-116, km 16",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.329514,-49.0301991/-25.38863938359847,+-49.20485574571622/@-25.3888486,-49.1847754,17.71z/data=!4m7!4m6!1m0!1m3!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 17,
+    "position": [
+      -25.38847,
+      -49.18435
+    ],
+    "reference01": "Régis Bittencourt, km 17",
+    "reference02": "BR-116, km 17",
+    "reference03": "Régis Bittencourt BR-116, km 17",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.329514,-49.0301991/-25.38863938359847,+-49.20485574571622/@-25.3891632,-49.1931115,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x0:0xfab4f88df0a4fa8a!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 18,
+    "position": [
+      -25.38908,
+      -49.19211
+    ],
+    "reference01": "Régis Bittencourt, km 18",
+    "reference02": "BR-116, km 18",
+    "reference03": "Régis Bittencourt BR-116, km 18",
+    "rod": "Régis Bittencourt"
+  },
+  {
+    "cityUf": "undefined by Google Mapping",
+    "direction": "Sul",
+    "ggOriginLink": "https://www.google.com/maps/dir/-25.329514,-49.0301991/-25.38863938359847,+-49.20485574571622/@-25.3890261,-49.2008301,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x0:0xfab4f88df0a4fa8a!2m2!1d-49.2048557!2d-25.3886394!3e0",
+    "km": 19,
+    "position": [
+      -25.38878,
+      -49.20255
+    ],
+    "reference01": "Régis Bittencourt, km 19",
+    "reference02": "BR-116, km 19",
+    "reference03": "Régis Bittencourt BR-116, km 19",
+    "rod": "Régis Bittencourt"
+  }
+]

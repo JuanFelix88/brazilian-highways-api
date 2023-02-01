@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.tile-map {
+  filter: hue-rotate(10deg) saturate(1.2);
+}
+
+.container-slim-scroll::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 2px;
+}
+
+.container-slim-scroll::-webkit-scrollbar-thumb {
+  background-color: #ee9497;
+  border-radius: 4px;
+}
+
+.container-slim-scroll::-webkit-scrollbar-track {
+  background-color: #fadbdc;
+}
+
+.custom-icon {
+  background-color: #ee4648;
+  border: 1px solid #f1a2a4;
+  border-radius: 8px 8px 21px 21px;
+  font-size: 10pt;
+  padding: 3px 4px;
+  color: white;
+  font-weight: 600;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 150ms ease;
+}
+
+.custom-icon:hover {
+  background-color: #d80b0f;
+}
+
+@keyframes selected-icon-anim {
+
+  0%,
+  100% {
+    background-color: #e7a388;
+  }
+
+  50%,
+  70% {
+    background-color: #d80b0f;
+  }
+}
+
+.selected-icon {
+  animation: selected-icon-anim 0.9s ease infinite backwards;
+}
+
+.custom-icon>span {
+  flex: 1;
+  text-align: center;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-anim {
+  animation: fade-in-animation 300ms ease backwards;
+}
+
+
+@keyframes fade-in-slower-animation {
+  from {
+    opacity: 0;
+    transform: translateY(5%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-anim-slower {
+  animation: fade-in-slower-animation 450ms 150ms ease backwards;
+}
+
+.hover-show-icon-link .show-icon {
+  opacity: 0;
+}
+
+.hover-show-icon-link:hover .show-icon {
+  opacity: 85%;
+}
+
+
+.hover-show-icon-link .transform-on-hover {
+  transition: transform 150ms cubic-bezier(.62, .28, .6, .91), opacity 150ms cubic-bezier(.62, .28, .6, .91);
+  transform: scale(1);
+  opacity: 0.6;
+}
+
+.hover-show-icon-link:hover .transform-on-hover {
+  transition: transform 700ms cubic-bezier(.63, .47, 0, .97), opacity 950ms cubic-bezier(.63, .47, 0, .97);
+  transform: scale(1.3);
+  opacity: 0.4;
+}
