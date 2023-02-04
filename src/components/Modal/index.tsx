@@ -21,7 +21,7 @@ export function Mask () {
 
 export function ModalContainer (props: HtmlHTMLAttributes<HTMLDivElement>) {
   return (
-    <div className="fixed justify-self-center self-center px-8 py-6 bg-white rounded-xl z-30 text-gray-700 show-modal shadow-md max-h-[95vh] overflow-y-auto" {...props}>
+    <div className="fixed justify-self-center self-center px-8 py-6 bg-white rounded-lg z-30 text-gray-700 show-modal scroll-modal shadow-md max-h-[95vh] overflow-y-scroll" {...props}>
       {props.children}
     </div>
   )
@@ -29,7 +29,7 @@ export function ModalContainer (props: HtmlHTMLAttributes<HTMLDivElement>) {
 
 export function Title (props: HtmlHTMLAttributes<HTMLHeadingElement>) {
   return (
-    <h1 className='text-4xl text-gray-700 font-medium' {...props}>
+    <h1 className='text-4xl text-gray-700 font-medium mb-1' {...props}>
       {props.children}
     </h1>
   )

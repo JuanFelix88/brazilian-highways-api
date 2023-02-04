@@ -133,8 +133,29 @@ a {
   opacity: 0.4;
 }
 
+/* width */
 .scroll-modal::-webkit-scrollbar {
-  opacity: 20%;
+  width: 10px;
+}
+
+/* Track */
+.scroll-modal::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 12px;
+  transition: 130ms ease;
+}
+
+/* Handle */
+.scroll-modal::-webkit-scrollbar-thumb {
+  background: #bebebe;
+  border-radius: 12px;
+  transition: 130ms ease;
+}
+
+/* Handle on hover */
+.scroll-modal::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  transition: 130ms ease;
 }
 
 @keyframes show-modal-animation {

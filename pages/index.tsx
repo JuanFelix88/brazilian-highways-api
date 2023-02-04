@@ -22,7 +22,7 @@ const Principal: React.FC = () => {
   return (
     <div className="w-full min-h-screen bg-white">
       <Head>
-        <title>Mapper - Home</title>
+        <title>Proteus - Home</title>
       </Head>
       <div className="container relative flex flex-col min-h-screen px-6 pb-8 pt-4 mx-auto">
         <Header.Root>

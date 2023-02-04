@@ -49,7 +49,7 @@ export default function Rodovias () {
   return (
     <div className="w-full min-h-screen bg-white">
       <Head>
-        <title>Mapper - Mapeamento de Rodovias</title>
+        <title>Proteus - Mapeamento de Rodovias</title>
       </Head>
       <div className="container relative min-h-screen px-6 pb-8 pt-4 mx-auto grid grid-rows-[60px,auto,70px]">
         <Header.Root>
@@ -97,8 +97,15 @@ export default function Rodovias () {
               <label htmlFor="">Nome concessionária</label>
               <input
                 type="text"
-                autoFocus
                 placeholder='Informe o nome da concessionária'
+                className="my-2 px-2 py-3 w-96 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
+              />
+            </InsertNewHighwayModal.ContainerField>
+            <InsertNewHighwayModal.ContainerField>
+              <label htmlFor="">Link externo da concessionária</label>
+              <input
+                type="text"
+                placeholder='https://'
                 className="my-2 px-2 py-3 w-96 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
               />
             </InsertNewHighwayModal.ContainerField>
@@ -111,19 +118,25 @@ export default function Rodovias () {
                 className="my-2 px-2 py-3 w-96 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
               />
             </InsertNewHighwayModal.ContainerField>
-            <InsertNewHighwayModal.ContainerField>
-              <label htmlFor="">Link externo da concessionária</label>
-              <input
-                type="text"
-                placeholder='https://'
-                className="my-2 px-2 py-3 w-96 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
-              />
-            </InsertNewHighwayModal.ContainerField>
 
             <InsertNewHighwayModal.ContainerField>
-              <button>
-                Selecionar e começar a editar
-              </button>
+              <div className='flex'>
+                <FormSearch.Button
+                  type='button'
+                  className='bg-green-600 text-white hover:bg-green-500 focus:ring-green-600 sm:mx-0 mx-0'
+                  onClick={() => setToggleInsertHighway(!toggleInsertHighway)}
+                >
+                  Salvar
+                </FormSearch.Button>
+                <FormSearch.Button
+                  type='button'
+                  className='bg-gray-500 text-white hover:bg-gray-400 focus:ring-gray-500 mx-2'
+                  onClick={() => setToggleInsertHighway(!toggleInsertHighway)}
+                >
+                  Cancelar
+                </FormSearch.Button>
+              </div>
+
             </InsertNewHighwayModal.ContainerField>
           </InsertNewHighwayModal.ModalContainer>
         </InsertNewHighwayModal.Root>
