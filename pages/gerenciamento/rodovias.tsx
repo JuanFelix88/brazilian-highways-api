@@ -5,101 +5,44 @@ import * as FormSearch from '../../src/components/FormSearch'
 import * as RodGrid from '../../src/components/RodGrid'
 
 import RodImg from '../../assets/rod.png'
+import { MutableRefObject, useCallback, useEffect, useRef, useState } from 'react'
+import { Highway } from '../../src/entities/highway'
 
-const highways = [
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  },
-  {
-    id: 'stringasdas',
-    link: '#',
-    name: 'Régis Bittencourt',
-    description: 'Teste de renderização de rodovia'
-  }
-
-]
+let TIMEOUT_QUEUE_REF: any | null = null
+let LAST_SEARCHED_TEXT = ''
 
 export default function Rodovias () {
-  function handleOnChangeTextSearch (searchText: string) {
-    console.log({
-      searchText
-    })
+  const [highways, setHighways] = useState<Highway[]>([])
+
+  function handleSearchHighways (searchText: string) {
+    fetch(`/api/highways?q=${searchText}`)
+      .then(async highwaysFetchedResponse => {
+        const highwaysFetched: Highway[] = await highwaysFetchedResponse.json()
+
+        setHighways(highwaysFetched)
+      })
+      .catch(console.warn)
   }
+
+  const handleOnChangeInputSearch = useCallback((text = '') => {
+    if (LAST_SEARCHED_TEXT === text) {
+      return
+    }
+
+    if (TIMEOUT_QUEUE_REF !== null) {
+      clearTimeout(TIMEOUT_QUEUE_REF)
+      TIMEOUT_QUEUE_REF = null
+    }
+
+    TIMEOUT_QUEUE_REF = setTimeout(() => {
+      LAST_SEARCHED_TEXT = text
+      handleSearchHighways(text)
+    }, 300)
+  }, [])
+
+  useEffect(() => {
+    handleSearchHighways('')
+  }, [])
 
   return (
     <div className="w-full min-h-screen bg-white">
@@ -119,9 +62,11 @@ export default function Rodovias () {
               Gerenciamento de Rodovias mapeadas
             </h1>
           </div>
-          <FormSearch.Root onSubmitForm={text => handleOnChangeTextSearch(text)}>
-            <FormSearch.Input />
-            <FormSearch.Button className='bg-indigo-600 text-white hover:bg-indigo-400 focus:ring-indigo-600'>
+          <FormSearch.Root onSubmitForm={text => handleSearchHighways(text)}>
+            <FormSearch.Input
+              onChange={e => handleOnChangeInputSearch(e.target.value)}
+            />
+            <FormSearch.Button type='submit' className='bg-indigo-600 text-white hover:bg-indigo-500 focus:ring-indigo-600'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
               </svg>

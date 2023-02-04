@@ -4,7 +4,7 @@ type RootProps = HTMLAttributes<HTMLDivElement>
 
 export function Root (props: RootProps) {
   return (
-    <div className="flex w-full p-3 text-gray-800 justify-around flex-wrap rod-grid" {...props}>
+    <div className="flex w-full py-3 px-0 text-gray-800 justify-start flex-wrap rod-grid" {...props}>
       {/* <div className='flex flex-wrap flex-grow-0 flex-'> */}
         {props.children}
       {/* </div> */}
@@ -16,7 +16,7 @@ type CardContainerProps = AnchorHTMLAttributes<HTMLAnchorElement>
 
 export function CardContainer (props: CardContainerProps) {
   return (
-    <a className="flex relative mx-4 my-1 p-2 flex-col rounded-md items-center hover-show-icon-link hover:bg-red-50 h-80 card-rod" {...props}>
+    <a className="flex relative mx-2 my-1 p-2 flex-col rounded-md items-center hover-show-icon-link hover:bg-red-50 h-80 card-rod" {...props}>
       {props.children}
     </a>
   )
