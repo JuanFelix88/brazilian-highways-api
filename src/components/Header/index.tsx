@@ -37,7 +37,7 @@ export function Root (props: HTMLAttributes<HTMLElement>) {
               <i
                 className="text-violet-700 my-0 leading-6"
               >
-                mapper
+                proteus
               </i>
               <i className='my-0 leading-5'>rodovias.net</i>
             </div>
