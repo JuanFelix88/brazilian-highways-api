@@ -8,17 +8,29 @@
   "extends": [
     "plugin:react/recommended",
     "standard-with-typescript",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "overrides": [],
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx",
+        "*.js"
+      ],
+      "parser": "@typescript-eslint/parser"
+    }
+  ],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
   "plugins": [
-    "react"
+    "react",
+    "prettier"
   ],
   "rules": {
     "react/prop-types": "off",
@@ -26,10 +38,13 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "space-before-function-paren": "off",
     "no-spaced-func": "error",
+    "no-unused-vars": "warn",
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-extraneous-class": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-redeclare": "off"
+    "@typescript-eslint/no-redeclare": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/consistent-type-assertions": "off"
   }
 }

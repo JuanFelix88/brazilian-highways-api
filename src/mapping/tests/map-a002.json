@@ -1,0 +1,882 @@
+[
+  {
+    "km": 0,
+    "position": [
+      -25.060044,
+      -48.56259
+    ],
+    "kmDistance": 0.067,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 1,
+    "position": [
+      -25.063025,
+      -48.569635
+    ],
+    "kmDistance": 1.002,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 2,
+    "position": [
+      -25.066104,
+      -48.577809
+    ],
+    "kmDistance": 2.037,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 3,
+    "position": [
+      -25.07269,
+      -48.586217
+    ],
+    "kmDistance": 3.24,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 4,
+    "position": [
+      -25.075855,
+      -48.593304
+    ],
+    "kmDistance": 4.054,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 5,
+    "position": [
+      -25.085153,
+      -48.601836
+    ],
+    "kmDistance": 5.404,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 6,
+    "position": [
+      -25.086984,
+      -48.608429
+    ],
+    "kmDistance": 6.162,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 7,
+    "position": [
+      -25.082217,
+      -48.617712
+    ],
+    "kmDistance": 7.366,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 8,
+    "position": [
+      -25.08285,
+      -48.629446
+    ],
+    "kmDistance": 8.616,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 9,
+    "position": [
+      -25.082498,
+      -48.635519
+    ],
+    "kmDistance": 9.259,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 10,
+    "position": [
+      -25.086141,
+      -48.644079
+    ],
+    "kmDistance": 10.382,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 11,
+    "position": [
+      -25.096104,
+      -48.653264
+    ],
+    "kmDistance": 11.84,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 12,
+    "position": [
+      -25.097153,
+      -48.655469
+    ],
+    "kmDistance": 12.092,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 13,
+    "position": [
+      -25.09682,
+      -48.666901
+    ],
+    "kmDistance": 13.293,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 14,
+    "position": [
+      -25.099487,
+      -48.675062
+    ],
+    "kmDistance": 14.214,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 15,
+    "position": [
+      -25.098552,
+      -48.685206
+    ],
+    "kmDistance": 15.298,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 16,
+    "position": [
+      -25.099794,
+      -48.6942
+    ],
+    "kmDistance": 16.234,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 17,
+    "position": [
+      -25.102993,
+      -48.700884
+    ],
+    "kmDistance": 17.011,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 18,
+    "position": [
+      -25.104531,
+      -48.714238
+    ],
+    "kmDistance": 18.374,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Antonina"
+  },
+  {
+    "km": 19,
+    "position": [
+      -25.102223,
+      -48.723645
+    ],
+    "kmDistance": 19.36,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Antonina"
+  },
+  {
+    "km": 20,
+    "position": [
+      -25.100545,
+      -48.730699
+    ],
+    "kmDistance": 20.097,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Antonina"
+  },
+  {
+    "km": 21,
+    "position": [
+      -25.106518,
+      -48.740761
+    ],
+    "kmDistance": 21.333,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Antonina"
+  },
+  {
+    "km": 22,
+    "position": [
+      -25.109631,
+      -48.747422
+    ],
+    "kmDistance": 22.089,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Antonina"
+  },
+  {
+    "km": 23,
+    "position": [
+      -25.109395,
+      -48.76047
+    ],
+    "kmDistance": 23.466,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Antonina"
+  },
+  {
+    "km": 26,
+    "position": [
+      -25.106807,
+      -48.785601
+    ],
+    "kmDistance": 26.013,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 27,
+    "position": [
+      -25.109017,
+      -48.798056
+    ],
+    "kmDistance": 27.294,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 28,
+    "position": [
+      -25.103935,
+      -48.807763
+    ],
+    "kmDistance": 28.467,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 29,
+    "position": [
+      -25.100159,
+      -48.811794
+    ],
+    "kmDistance": 29.054,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 30,
+    "position": [
+      -25.100317,
+      -48.824765
+    ],
+    "kmDistance": 30.377,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 31,
+    "position": [
+      -25.102076,
+      -48.832493
+    ],
+    "kmDistance": 31.18,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 32,
+    "position": [
+      -25.105756,
+      -48.846539
+    ],
+    "kmDistance": 32.673,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 33,
+    "position": [
+      -25.107421,
+      -48.850005
+    ],
+    "kmDistance": 33.076,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 34,
+    "position": [
+      -25.117228,
+      -48.854126
+    ],
+    "kmDistance": 34.287,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 35,
+    "position": [
+      -25.126978,
+      -48.857406
+    ],
+    "kmDistance": 35.42,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 36,
+    "position": [
+      -25.13618,
+      -48.857242
+    ],
+    "kmDistance": 36.445,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 37,
+    "position": [
+      -25.142339,
+      -48.856767
+    ],
+    "kmDistance": 37.156,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 38,
+    "position": [
+      -25.150633,
+      -48.859328
+    ],
+    "kmDistance": 38.127,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 39,
+    "position": [
+      -25.158515,
+      -48.861881
+    ],
+    "kmDistance": 39.064,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 40,
+    "position": [
+      -25.168504,
+      -48.866478
+    ],
+    "kmDistance": 40.373,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 41,
+    "position": [
+      -25.174265,
+      -48.868589
+    ],
+    "kmDistance": 41.057,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 42,
+    "position": [
+      -25.176863,
+      -48.877982
+    ],
+    "kmDistance": 42.065,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 43,
+    "position": [
+      -25.183229,
+      -48.885088
+    ],
+    "kmDistance": 43.086,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 44,
+    "position": [
+      -25.190919,
+      -48.884825
+    ],
+    "kmDistance": 44.01,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 45,
+    "position": [
+      -25.197804,
+      -48.89398
+    ],
+    "kmDistance": 45.224,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 46,
+    "position": [
+      -25.20529,
+      -48.89538
+    ],
+    "kmDistance": 46.123,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 47,
+    "position": [
+      -25.214753,
+      -48.902133
+    ],
+    "kmDistance": 47.443,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 48,
+    "position": [
+      -25.224013,
+      -48.906316
+    ],
+    "kmDistance": 48.567,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 49,
+    "position": [
+      -25.229742,
+      -48.907959
+    ],
+    "kmDistance": 49.225,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 50,
+    "position": [
+      -25.237344,
+      -48.907159
+    ],
+    "kmDistance": 50.085,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 51,
+    "position": [
+      -25.244516,
+      -48.90263
+    ],
+    "kmDistance": 51.039,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 52,
+    "position": [
+      -25.250713,
+      -48.909859
+    ],
+    "kmDistance": 52.056,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 53,
+    "position": [
+      -25.261786,
+      -48.914496
+    ],
+    "kmDistance": 53.383,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 54,
+    "position": [
+      -25.267433,
+      -48.917346
+    ],
+    "kmDistance": 54.075,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 56,
+    "position": [
+      -25.284467,
+      -48.929932
+    ],
+    "kmDistance": 56.353,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 57,
+    "position": [
+      -25.289602,
+      -48.934183
+    ],
+    "kmDistance": 57.073,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 58,
+    "position": [
+      -25.298021,
+      -48.940313
+    ],
+    "kmDistance": 58.251,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 59,
+    "position": [
+      -25.304064,
+      -48.94468
+    ],
+    "kmDistance": 59.069,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 60,
+    "position": [
+      -25.302732,
+      -48.962424
+    ],
+    "kmDistance": 60.907,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 61,
+    "position": [
+      -25.302673,
+      -48.963688
+    ],
+    "kmDistance": 61.034,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 62,
+    "position": [
+      -25.307083,
+      -48.977863
+    ],
+    "kmDistance": 62.536,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 64,
+    "position": [
+      -25.306148,
+      -48.993588
+    ],
+    "kmDistance": 64.152,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 65,
+    "position": [
+      -25.310271,
+      -49.001939
+    ],
+    "kmDistance": 65.153,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 66,
+    "position": [
+      -25.31039,
+      -49.012662
+    ],
+    "kmDistance": 66.26,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 67,
+    "position": [
+      -25.314787,
+      -49.017741
+    ],
+    "kmDistance": 67.007,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 68,
+    "position": [
+      -25.324823,
+      -49.026217
+    ],
+    "kmDistance": 68.443,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 70,
+    "position": [
+      -25.337215,
+      -49.036704
+    ],
+    "kmDistance": 70.179,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 71,
+    "position": [
+      -25.344114,
+      -49.043346
+    ],
+    "kmDistance": 71.195,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 72,
+    "position": [
+      -25.350232,
+      -49.057106
+    ],
+    "kmDistance": 72.753,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 73,
+    "position": [
+      -25.3515,
+      -49.060374
+    ],
+    "kmDistance": 73.11,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Campina Grande do Sul"
+  },
+  {
+    "km": 74,
+    "position": [
+      -25.356138,
+      -49.067848
+    ],
+    "kmDistance": 74.021,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 75,
+    "position": [
+      -25.363566,
+      -49.084034
+    ],
+    "kmDistance": 75.845,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 76,
+    "position": [
+      -25.364268,
+      -49.086077
+    ],
+    "kmDistance": 76.066,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 78,
+    "position": [
+      -25.369031,
+      -49.112066
+    ],
+    "kmDistance": 78.73,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Quatro Barras"
+  },
+  {
+    "km": 81,
+    "position": [
+      -25.372508,
+      -49.139895
+    ],
+    "kmDistance": 81.553,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Colombo"
+  },
+  {
+    "km": 82,
+    "position": [
+      -25.373341,
+      -49.144495
+    ],
+    "kmDistance": 82.025,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Colombo"
+  },
+  {
+    "km": 85,
+    "position": [
+      -25.385645,
+      -49.173333
+    ],
+    "kmDistance": 85.228,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Colombo"
+  },
+  {
+    "km": 86,
+    "position": [
+      -25.389052,
+      -49.1882
+    ],
+    "kmDistance": 86.778,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Colombo"
+  },
+  {
+    "km": 87,
+    "position": [
+      -25.389001,
+      -49.195718
+    ],
+    "kmDistance": 87.533,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Curitiba"
+  },
+  {
+    "km": 88,
+    "position": [
+      -25.388705,
+      -49.200512
+    ],
+    "kmDistance": 88.008,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Curitiba"
+  },
+  {
+    "km": 89,
+    "position": [
+      -25.384704,
+      -49.202112
+    ],
+    "kmDistance": 89.004,
+    "majority": true,
+    "uf": "Paraná",
+    "city": "Curitiba"
+  }
+]

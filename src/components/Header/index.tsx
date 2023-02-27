@@ -1,14 +1,14 @@
 import type { HTMLAttributes } from 'react'
 import ButtonSearchLink from '../ButtonSearchLink'
 
-export function Root (props: HTMLAttributes<HTMLElement>) {
+export function Root(props: HTMLAttributes<HTMLElement>) {
   return (
-    <nav className="md:flex md:items-center md:justify-between py-2">
+    <nav className="py-2 md:flex md:items-center md:justify-between">
       <div className="flex items-center md:justify-between">
         <button className="md:hidden">
           <span>
             <svg
-              className="w-6 h-6 text-gray-800"
+              className="h-6 w-6 text-gray-800"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >
@@ -18,14 +18,14 @@ export function Root (props: HTMLAttributes<HTMLElement>) {
         </button>
         <div>
           <a
-            className="text-xl font-bold text-red-600 transition-colors duration-300 transform  hover:text-red-900 flex items-center"
+            className="flex transform items-center text-xl font-bold text-red-600  transition-colors duration-300 hover:text-red-900"
             href="/"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-6 h-6"
+              className="h-6 w-6"
             >
               <path
                 fillRule="evenodd"
@@ -33,13 +33,9 @@ export function Root (props: HTMLAttributes<HTMLElement>) {
                 clipRule="evenodd"
               />
             </svg>
-            <div className='flex flex-col'>
-              <i
-                className="text-violet-700 my-0 leading-6"
-              >
-                proteus
-              </i>
-              <i className='my-0 leading-5'>rodovias.net</i>
+            <div className="flex flex-col">
+              <i className="my-0 leading-6 text-violet-700">proteus</i>
+              <i className="my-0 leading-5">rodovias.net</i>
             </div>
           </a>
         </div>
@@ -49,9 +45,9 @@ export function Root (props: HTMLAttributes<HTMLElement>) {
   )
 }
 
-export function NavLinksContainer (props: HTMLAttributes<HTMLDivElement>) {
+export function NavLinksContainer(props: HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className="absolute inset-x-0 z-20 w-full px-6 py-8 mt-8 space-y-6 transition-all duration-300 ease-in-out bg-white top-16 md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:space-y-0 md:-mx-0 md:flex md:items-center">
+    <div className="absolute inset-x-0 top-16 z-20 mt-8 w-full space-y-6 bg-white px-6 py-8 transition-all duration-300 ease-in-out md:relative md:top-0 md:-mx-0 md:mt-0 md:flex md:w-auto md:translate-x-0 md:items-center md:space-y-0 md:p-0 md:opacity-100">
       {props.children}
     </div>
   )
@@ -63,7 +59,7 @@ interface NavLinkProps {
   selected?: boolean
 }
 
-export function NavLink ({ content, href, selected }: NavLinkProps) {
+export function NavLink({ content, href, selected }: NavLinkProps) {
   const isSelected = selected === true
   const hrefLink = isSelected ? undefined : href
   const style = isSelected

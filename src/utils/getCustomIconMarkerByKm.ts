@@ -2,7 +2,7 @@ import Leaflet from 'leaflet'
 
 let customIconGeneratedByKm: Leaflet.DivIcon
 // let lastKm: number
-export function getCustomIconMarkerByKm (km: number, selected?: boolean) {
+export function getCustomIconMarkerByKm(km: number, selected?: boolean) {
   // if (km === lastKm) {
   //   return customIconGeneratedByKm
   // }

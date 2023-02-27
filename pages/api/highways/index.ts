@@ -1,56 +1,70 @@
+import { Highway } from '@/src/application/entities/highway'
+import { CreateHighway } from '@/src/application/use-cases/create-highway'
+import { HighwayValidationError } from '@/src/application/use-cases/errors/highway-validation-error'
+import { DataMappingService } from '@/src/infra/data-mapping/data-mapping.service'
+import { DataMappingHighwaysRepository } from '@/src/infra/data-mapping/repositories/data-mapping-highways-reposity'
+import { createHighwayBody } from '@/src/infra/http/dtos/create-highway-body'
 import { NextApiRequest, NextApiResponse } from 'next'
-import type { Data as PartRod } from '../../../src/entities/part-rod'
-import type { Highway } from '../../../src/entities/highway'
-import dataJson from '../../../src/mapping/regis-bittencourt/data.json'
-import { useEffect } from 'react'
 
-const data = dataJson as PartRod[]
-
-function adapterSearchFilter (q: string) {
-  q = q.toLowerCase()
-  return (item: PartRod, _: number) =>
-    item.reference01.toLowerCase().includes(q) ||
-    item.rod.toLowerCase().includes(q)
-}
-
-function adapterTransformDataToUniqueHighways (
-  highways: Highway[],
-  item: PartRod
-) {
-  if (!highways.some(highway => highway.name === item.rod)) {
-    highways.push({
-      id: (Math.random() * 100_000_000).toString(16),
-      code: item.reference02.split(',')[0],
-      description: 'Lorem episilum dolom',
-      name: item.rod,
-      link: '/regis-bittencourt'
-    })
+namespace Controller {
+  export namespace Post {
+    export type RequestBody = Omit<Highway, 'id'>
   }
-
-  return highways
 }
 
-export default async function handler (
+class Controller {
+  constructor(private readonly createHighway: CreateHighway) {}
+
+  async post(req: NextApiRequest, res: NextApiResponse) {
+    try {
+      const {
+        code,
+        description,
+        emergencyContacts,
+        hasConcessionaire,
+        name,
+        concessionaireLink,
+        concessionaireName
+      } = req.body as Controller.Post.RequestBody
+
+      const highway = createHighwayBody({
+        code,
+        description,
+        emergencyContacts,
+        hasConcessionaire,
+        name,
+        concessionaireLink,
+        concessionaireName
+      })
+      const { id } = await this.createHighway.execute(highway)
+
+      res.status(201).send({ id })
+    } catch (error) {
+      if (error instanceof HighwayValidationError) {
+        return res.status(400).send({
+          error: error.viewMessage
+        })
+      }
+      return res.status(500).send('')
+    }
+  }
+}
+
+function createHighwayFactory() {
+  return new CreateHighway(
+    new DataMappingHighwaysRepository(new DataMappingService())
+  )
+}
+
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  try {
-    if (req.method !== 'GET') {
-      return res.status(406).send('')
-    }
+  const controller = new Controller(createHighwayFactory())
 
-    const { q } = req.query
-
-    if (Array.isArray(q)) {
-      return res.status(400).send("'q' malformed, try string content")
-    }
-
-    const highwaysTransformedFromListPartRod = data
-      .filter(adapterSearchFilter(q ?? ''))
-      .reduce<Highway[]>(adapterTransformDataToUniqueHighways, [])
-
-    res.send(highwaysTransformedFromListPartRod)
-  } catch (error) {
-    res.status(501).send('')
+  if (!req.method || !['POST'].includes(req.method)) {
+    return res.status(405).send('')
   }
+
+  await controller[req.method.toLowerCase() as keyof Controller](req, res)
 }

@@ -8,59 +8,65 @@ const Principal: React.FC = () => {
   const [searchText, setSearchText] = useState('')
   const router = useRouter()
 
-  function handleSearch (text?: string) {
+  function handleSearch(text?: string) {
     if (text === undefined || text === '') {
       return
     }
     router.push(`/pesquisa?q=${text}`).then(console.log).catch(console.log)
   }
 
-  function handleSubmit (event: FormEvent<HTMLFormElement>) {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
   }
 
   return (
-    <div className="w-full min-h-screen bg-white">
+    <div className="min-h-screen w-full bg-white">
       <Head>
         <title>Proteus - Home</title>
       </Head>
-      <div className="container relative flex flex-col min-h-screen px-6 pb-8 pt-4 mx-auto">
+      <div className="container relative mx-auto flex min-h-screen flex-col px-6 pb-8 pt-4">
         <Header.Root>
           <Header.NavLinksContainer>
-            <Header.NavLink content="Gerenciamento de rodovias" href="/gerenciamento/rodovias" />
-            <Header.NavLink content="Gerenciamento de trechos" href="/gerenciamento/trechos" />
+            <Header.NavLink
+              content="Gerenciamento de rodovias"
+              href="/gerenciamento/rodovias"
+            />
+            <Header.NavLink
+              content="Gerenciamento de trechos"
+              href="/gerenciamento/trechos"
+            />
           </Header.NavLinksContainer>
         </Header.Root>
-        <section className="flex items-center flex-1">
-          <div className="flex flex-col w-full ">
-            <h1 className="text-5xl font-extrabold text-center lg:text-7xl 2xl:text-8xl">
-              <span className="text-transparent bg-gradient-to-br bg-clip-text from-red-600 via-red-500 to-orange-500">
+        <section className="flex flex-1 items-center">
+          <div className="flex w-full flex-col ">
+            <h1 className="text-center text-5xl font-extrabold lg:text-7xl 2xl:text-8xl">
+              <span className="bg-gradient-to-br from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent">
                 Você procura, você acha!
               </span>
             </h1>
-            <p className="max-w-3xl mx-auto mt-6 text-lg text-center text-gray-700 md:text-xl">
+            <p className="mx-auto mt-6 max-w-3xl text-center text-lg text-gray-700 md:text-xl">
               Procure por trecho das principais rodovias brasileiras!
             </p>
             <form
               onSubmit={handleSubmit}
-              className="flex flex-col mt-8 space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0"
+              className="mt-8 flex flex-col space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0"
             >
               <input
                 type="text"
                 autoFocus
-                className="px-3 py-3 w-80 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring sm:mx-2"
+                className="w-80 rounded-md border bg-white px-3 py-3 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 sm:mx-2"
                 placeholder="BR-116, km 10"
                 onChange={e => setSearchText(e.target.value)}
               />
               <button
                 onClick={() => handleSearch(searchText)}
-                className="flex focus:ring-2 focus:ring-red-600 focus:ring-offset-1 items-center px-4 py-3 text-lg font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-red-500 rounded-md hover:bg-red-600 focus:bg-red-600 focus:outline-none sm:mx-2"
+                className="flex transform items-center rounded-md bg-red-500 px-4 py-3 text-lg font-medium capitalize tracking-wide text-white transition-colors duration-300 hover:bg-red-600 focus:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-1 sm:mx-2"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 mx-1"
+                  className="mx-1 h-6 w-6"
                 >
                   <path
                     fillRule="evenodd"
@@ -72,7 +78,7 @@ const Principal: React.FC = () => {
               </button>
             </form>
             <a
-              className="mt-8 text-center text-gray-700 text-lg md:text-lg hover:text-red-700"
+              className="mt-8 text-center text-lg text-gray-700 hover:text-red-700 md:text-lg"
               href="/rodovias"
             >
               Veja a nossa lista de rodovias mapeadas.

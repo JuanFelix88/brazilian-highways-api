@@ -16,7 +16,7 @@ export const uglifyMap = {
   }
 }
 
-export function toUglifyData (data: any[]) {
+export function toUglifyData(data: any[]) {
   return data
     .map(item => {
       return Object.entries(item)
@@ -31,13 +31,13 @@ export function toUglifyData (data: any[]) {
     .join(uglifyMap.separators.items)
 }
 
-function getValueType (code: string) {
+function getValueType(code: string) {
   return Object.entries(uglifyMap.keys).find(([, key]) =>
     code.includes(key)
   )?.[0]
 }
 
-function removeValueType (code: string) {
+function removeValueType(code: string) {
   const typeCode = Object.entries(uglifyMap.keys).find(([, key]) =>
     code.includes(key)
   )?.[1]
@@ -45,7 +45,7 @@ function removeValueType (code: string) {
   return code.replace(typeCode!, '')
 }
 
-export function unUglifyData (code: string) {
+export function unUglifyData(code: string) {
   const items = code.split(uglifyMap.separators.items)
 
   return items

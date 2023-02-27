@@ -4,3 +4,4 @@ dist
 assets
 public
 /*.js
+next-env.d.ts

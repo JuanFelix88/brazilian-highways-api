@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Régis Bittencourt",
+    "description": "Rodovia que liga Curitiba-PR São Paulo-SP",
+    "code": "BR-116",
+    "hasConcessionaire": true,
+    "concessionaireName": "Arteris",
+    "emergencyContacts": "Atendimento 24h: 0800 7090 116",
+    "concessionaireLink": "https://www.arteris.com.br/nossas-rodovias/regis-bittencourt/apresentacao"
+  }
+]
