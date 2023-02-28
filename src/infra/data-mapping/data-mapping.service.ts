@@ -19,12 +19,14 @@ export namespace DataMappingService {}
 export class DataMappingService {
   public async loadFromName(filename: Filenames): Promise<any> {
     if (filename === Filenames.Highways) {
-      const highwaysList = await import('@/src/data/highways.json')
+      const { default: highwaysList } = await import('@/src/data/highways.json')
       return highwaysList
     }
 
     if (filename === Filenames.KeyPointers) {
-      const keyPointersList = await import('@/src/data/key-pointers.json')
+      const { default: keyPointersList } = await import(
+        '@/src/data/key-pointers.json'
+      )
       return keyPointersList
     }
   }
