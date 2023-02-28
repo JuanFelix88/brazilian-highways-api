@@ -6,7 +6,16 @@ import { DataMappingService, Filenames } from '../data-mapping.service'
 export class DataMappingPointersRepository implements PointersRepository {
   constructor(private readonly dataMappingService: DataMappingService) {}
 
-  async create(highway: Partial<Pointer>): Promise<{ id: number }> {}
+  async create(pointer: Partial<Pointer>): Promise<{ id: number }> {
+    Object.assign(pointer, {
+      id: ~~(Math.random() * 100_000_000_000)
+    })
+    await this.insertMany([pointer])
+
+    return {
+      id: (pointer as any).id
+    }
+  }
 
   async findByHighwayId(highwayId: number): Promise<KeyPointer[]> {
     const keyPointersList: KeyPointer[] =
