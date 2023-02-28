@@ -1,14 +1,12 @@
 import { useMapping } from '@/src/contexts/Proteus/Mapping'
+import { useRouter } from 'next/router'
 import ButtonStep from '../ButtonStep'
 import Description from '../Description'
 import Title from '../Title'
 
 export default function EndConfirmSection() {
   const { keyPointers, setSteps, steps } = useMapping()
-
-  function handleConfirmChanges() {
-    alert('Finalizado!')
-  }
+  const router = useRouter()
 
   function handleReturnToFirstStep() {
     setSteps(
@@ -18,6 +16,32 @@ export default function EndConfirmSection() {
           step.text.startsWith('1.') ? { ...step, state: 'running' } : step
         ) as []
     )
+  }
+
+  function handleSubmitKeypointers() {
+    const { id: highwayId } = router.query
+
+    fetch('/api/highways/mapping/parts', {
+      method: 'POST',
+      body: JSON.stringify(
+        keyPointers.map(keypointer => ({
+          ...keypointer,
+          rodId: Number(highwayId)
+        }))
+      ),
+      headers: {
+        'Content-type': 'application/json'
+      }
+    })
+      .then(async fetchPostKeypointersResponse => {
+        if (fetchPostKeypointersResponse.status !== 202) {
+          return alert('Não foi possível salvar os dados devido erro interno')
+        }
+
+        alert('Dados salvos com sucesso')
+        await router.push('/gerenciamento/trechos')
+      })
+      .catch(err => console.error(err))
   }
 
   return (
@@ -32,7 +56,7 @@ export default function EndConfirmSection() {
           Retornar para a primeira etapa
         </ButtonStep>
         <ButtonStep
-          onClick={handleConfirmChanges}
+          onClick={handleSubmitKeypointers}
           className="my-1 bg-green-500 hover:bg-green-400"
         >
           Concluir mapeamento!
