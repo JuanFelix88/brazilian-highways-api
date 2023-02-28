@@ -1,7 +1,7 @@
 export namespace Controller {
-  export interface Request {
+  export interface Request<T = any> {
     method?: string
-    data: any
+    body: T
     query: object
   }
 
