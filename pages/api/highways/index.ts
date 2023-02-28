@@ -1,21 +1,63 @@
 import { Highway } from '@/src/application/entities/highway'
 import { CreateHighway } from '@/src/application/use-cases/create-highway'
 import { HighwayValidationError } from '@/src/application/use-cases/errors/highway-validation-error'
-import { DataMappingService } from '@/src/infra/data-mapping/data-mapping.service'
+import {
+  DataMappingService,
+  Filenames
+} from '@/src/infra/data-mapping/data-mapping.service'
 import { DataMappingHighwaysRepository } from '@/src/infra/data-mapping/repositories/data-mapping-highways-repository'
 import { createHighwayBody } from '@/src/infra/http/dtos/create-highway-body'
+import { Controller } from '@/src/utils/controller'
 import { NextApiRequest, NextApiResponse } from 'next'
 
-namespace Controller {
+namespace HighwaysController {
   export namespace Post {
     export type RequestBody = Omit<Highway, 'id'>
   }
 }
 
-class Controller {
-  constructor(private readonly createHighway: CreateHighway) {}
+class HighwaysController extends Controller {
+  private readonly dataMappingService = new DataMappingService()
 
-  async post(req: NextApiRequest, res: NextApiResponse) {
+  private readonly dataMappingHighwaysRepository =
+    new DataMappingHighwaysRepository(this.dataMappingService)
+
+  private readonly createHighway = new CreateHighway(
+    this.dataMappingHighwaysRepository
+  )
+
+  async get(req: Controller.Request, res: Controller.Response) {
+    const { q } = req.query as { q: string }
+
+    if (typeof q !== 'string') {
+      return res.status(400).send({
+        error: 'query text must be provided with `q` param'
+      })
+    }
+
+    const highwayList: Highway[] = await this.dataMappingService.loadFromName(
+      Filenames.Highways
+    )
+    const queryTextInLowercase = q.toLowerCase()
+
+    const highwayFilteredByTextList = highwayList.filter(
+      highway =>
+        highway.code.toLowerCase().includes(queryTextInLowercase) ||
+        highway.concessionaireName
+          ?.toLowerCase()
+          // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
+          .includes(queryTextInLowercase) ||
+        highway.name.toLowerCase().includes(queryTextInLowercase) ||
+        highway.description.toLowerCase().includes(queryTextInLowercase)
+    )
+
+    return res.status(200).send(highwayFilteredByTextList)
+  }
+
+  async post(
+    req: Controller.Request<HighwaysController.Post.RequestBody>,
+    res: Controller.Response
+  ) {
     try {
       const {
         code,
@@ -25,7 +67,7 @@ class Controller {
         name,
         concessionaireLink,
         concessionaireName
-      } = req.body as Controller.Post.RequestBody
+      } = req.body
 
       const highway = createHighwayBody({
         code,
@@ -50,21 +92,4 @@ class Controller {
   }
 }
 
-function createHighwayFactory() {
-  return new CreateHighway(
-    new DataMappingHighwaysRepository(new DataMappingService())
-  )
-}
-
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  const controller = new Controller(createHighwayFactory())
-
-  if (!req.method || !['POST'].includes(req.method)) {
-    return res.status(405).send('')
-  }
-
-  await controller[req.method.toLowerCase() as keyof Controller](req, res)
-}
+export default HighwaysController.defineHandler()
