@@ -2,11 +2,36 @@ import { Highway } from '@/src/application/entities/highway'
 import fs from 'fs/promises'
 import path, { resolve } from 'path'
 
-const dataPath = path.resolve(process.cwd(), 'src', 'data')
+/**
+ * This will only be used for developing use due to data
+ * be stored in the repository
+ * 
+ * This will be ignored in production time!
+ */
+const dataPathForEnvProccess = path.resolve(process.cwd(), 'src', 'data')
+
+export enum Filenames {
+  Highways = 'highways.json',
+  KeyPointers = 'key-pointers.json'
+}
+
+export namespace DataMappingService {}
 
 export class DataMappingService {
+  public async loadFromName(filename: Filenames): Promise<any> {
+    if (filename === Filenames.Highways) {
+      const highwaysList = await import('@/src/data/highways.json')
+      return highwaysList
+    }
+
+    if (filename === Filenames.KeyPointers) {
+      const keyPointersList = await import('@/src/data/key-pointers.json')
+      return keyPointersList
+    }
+  }
+
   public async getCacheDataByFile(filename: string) {
-    const storePath = path.resolve(dataPath, filename)
+    const storePath = path.resolve(dataPathForEnvProccess, filename)
 
     const raw = await fs.readFile(storePath, 'utf-8')
 
@@ -25,7 +50,7 @@ export class DataMappingService {
         )
       }
 
-      const filepath = resolve(dataPath, filename)
+      const filepath = resolve(dataPathForEnvProccess, filename)
 
       const pathStat = await fs.stat(filepath)
 

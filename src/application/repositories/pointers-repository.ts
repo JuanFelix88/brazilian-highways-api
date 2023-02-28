@@ -1,3 +1,4 @@
+// eslint-disable-next-line prettier/prettier
 import { KeyPointer } from '../entities/key-pointer';
 
 export abstract class PointersRepository {

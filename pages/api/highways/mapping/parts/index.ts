@@ -12,7 +12,7 @@ class PartsController extends Controller {
   async get(req: Controller.Request, res: Controller.Response) {
     try {
       res.status(200).send({
-        message: this.internalC.getInternal()
+        message: this.internalC.getInternal(),
       })
     } catch (error) {
       res.status(400).send('')
