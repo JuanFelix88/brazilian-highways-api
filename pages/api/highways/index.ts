@@ -2,7 +2,7 @@ import { Highway } from '@/src/application/entities/highway'
 import { CreateHighway } from '@/src/application/use-cases/create-highway'
 import { HighwayValidationError } from '@/src/application/use-cases/errors/highway-validation-error'
 import { DataMappingService } from '@/src/infra/data-mapping/data-mapping.service'
-import { DataMappingHighwaysRepository } from '@/src/infra/data-mapping/repositories/data-mapping-highways-reposity'
+import { DataMappingHighwaysRepository } from '@/src/infra/data-mapping/repositories/data-mapping-highways-repository'
 import { createHighwayBody } from '@/src/infra/http/dtos/create-highway-body'
 import { NextApiRequest, NextApiResponse } from 'next'
 
