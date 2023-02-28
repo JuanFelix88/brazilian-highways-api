@@ -5,7 +5,6 @@ import path, { resolve } from 'path'
 /**
  * This will only be used for developing use due to data
  * be stored in the repository
- * 
  * This will be ignored in production time!
  */
 const dataPathForEnvProccess = path.resolve(process.cwd(), 'src', 'data')
