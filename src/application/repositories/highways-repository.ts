@@ -1,5 +1,4 @@
-// eslint-disable-next-line prettier/prettier
-import { Highway } from '@/src/application/entities/highway';
+import { Highway } from '@/src/application/entities/highway'
 
 export abstract class HighwaysRepository {
   abstract create(highway: Partial<Highway>): Promise<{ id: number }>

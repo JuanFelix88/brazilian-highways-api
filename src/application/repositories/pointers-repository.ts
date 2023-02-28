@@ -1,5 +1,4 @@
-// eslint-disable-next-line prettier/prettier
-import { KeyPointer } from '../entities/key-pointer';
+import { KeyPointer } from '../entities/key-pointer'
 
 export abstract class PointersRepository {
   abstract create(pointer: Partial<KeyPointer>): Promise<{ id: number }>
