@@ -1,6 +1,7 @@
 import { Highway } from '@/src/application/entities/highway'
 import { HighwaysRepository } from '@/src/application/repositories/highways-repository'
-import { DataMappingService } from '../data-mapping.service'
+import { DataMappingService, Filenames } from '../data-mapping.service'
+import MiniSearch, { SearchResult } from 'minisearch'
 
 export class DataMappingHighwaysRepository implements HighwaysRepository {
   #dataStoreName = 'highways.json'
@@ -52,6 +53,44 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
       Filenames.Highways
     )
     return highways
+  }
+
+  async findByName(highwayName: string): Promise<Highway[]> {
+    const search = highwayName
+    const highways: Highway[] = await this.dataMappingService.loadFromName(
+      Filenames.Highways
+    )
+
+    const miniSearch = new MiniSearch<Highway>({
+      fields: ['name', 'code'] as Array<keyof Highway>, // fields to index for full-text search
+      storeFields: [
+        'id',
+        'name',
+        'code',
+        'hasConcessionaire',
+        'emergencyContacts',
+        'description',
+        'concessionaireName',
+        'concessionaireLink'
+      ] as Array<keyof Highway> // fields to index for full-text search
+    })
+
+    miniSearch.addAll(highways)
+
+    const searchResult: Array<SearchResult & Highway> = miniSearch.search(
+      search
+    ) as []
+
+    return searchResult.map(result => ({
+      id: result.id,
+      code: result.code,
+      description: result.description,
+      emergencyContacts: result.emergencyContacts,
+      hasConcessionaire: result.hasConcessionaire,
+      name: result.name,
+      concessionaireLink: result.concessionaireLink,
+      concessionaireName: result.concessionaireName
+    }))
   }
 
   async findById(highwayId: number): Promise<Highway | null> {
