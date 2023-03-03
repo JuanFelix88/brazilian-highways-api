@@ -19,11 +19,16 @@ export default function Rodovias() {
   function handleSearchHighways(searchText: string) {
     fetch(`/api/highways?q=${searchText}`)
       .then(async highwaysFetchedResponse => {
+        if (highwaysFetchedResponse.status === 404) {
+          setHighways([])
+          return
+        }
+
         const highwaysFetched: Highway[] = await highwaysFetchedResponse.json()
 
         setHighways(highwaysFetched)
       })
-      .catch(console.warn)
+      .catch(console.error)
   }
 
   const handleOnChangeInputSearch = useCallback((text = '') => {
@@ -185,7 +190,7 @@ export default function Rodovias() {
               {highways.map(highway => (
                 <RodGrid.CardContainer
                   key={highway.id}
-                  href={`/rodovias/${highway.link}`}
+                  href={`/rodovias/${highway.code}`}
                 >
                   <RodGrid.CardImage src={RodImg.src} />
                   <RodGrid.CardTitle>{highway.name}</RodGrid.CardTitle>
