@@ -64,13 +64,13 @@ export default function EditHighwayModal({
   }
 
   function handleOnSubmitEventWrapper(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
     handleSubmit(
       highway => {
         handleOnExternalSubmitFunc({
           id: highwayId!,
           ...highway
         })
-        handleResetFormData()
       },
       errors => console.log(errors)
     )(event)

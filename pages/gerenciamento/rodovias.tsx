@@ -18,8 +18,10 @@ let LAST_SEARCHED_TEXT = ''
 
 export default function Rodovias() {
   const [highways, setHighways] = useState<Highway[]>([])
-  const [toggleInsertHighway, setToggleInsertHighway] = useState(false)
-  const [toggleEditHighway, setToggleEditHighway] = useState(false)
+  const [toggleInsertHighwayModalShow, setToggleInsertHighwayModalShow] =
+    useState(false)
+  const [toggleEditHighwayModalShow, setToggleEditHighwayModalShow] =
+    useState(false)
 
   const router = useRouter()
 
@@ -72,7 +74,7 @@ export default function Rodovias() {
         }
 
         if (createHighwayResponse.status === 201) {
-          setToggleInsertHighway(false) // hidden modal
+          setToggleInsertHighwayModalShow(false) // hidden modal
           alert('Rodovia salva com sucesso')
           handleSearchHighways('') // refresh list view
           return
@@ -110,14 +112,15 @@ export default function Rodovias() {
         'Content-type': 'application/json'
       }
     })
-      .then(editHighwayResponse => {
+      .then(async editHighwayResponse => {
         if (editHighwayResponse.status >= 400) {
           alert('Erro ao salvar a rodovia')
           return
         }
 
         if (editHighwayResponse.status === 200) {
-          setToggleEditHighway(false) // hidden modal
+          setToggleEditHighwayModalShow(false) // hidden modal
+          router.push('/gerenciamento/rodovias')
           alert('Dados salvos com sucesso')
           handleSearchHighways('') // refresh list view
           return
@@ -139,7 +142,7 @@ export default function Rodovias() {
 
     fetch(`/api/highways/${id}`, {
       method: 'DELETE'
-    }).then(deleteHighwayResponse => {
+    }).then(async deleteHighwayResponse => {
       if (deleteHighwayResponse.status >= 400) {
         alert(
           `Ocorreu um erro durante a operação de exclusão da rodovia, tente novamente ou procure uma solução para o problema. Status [${deleteHighwayResponse.status}]`
@@ -148,9 +151,11 @@ export default function Rodovias() {
       }
 
       if (deleteHighwayResponse.status === 200) {
+        setToggleEditHighwayModalShow(false)
         alert('Rodovia excluída com sucesso!')
-        setToggleEditHighway(false)
+
         handleSearchHighways('')
+        router.push('/gerenciamento/rodovias')
         return
       }
 
@@ -177,7 +182,9 @@ export default function Rodovias() {
   }, [])
 
   useEffect(() => {
-    setToggleEditHighway(Boolean(highwayId) && Boolean(selectedHighway))
+    setToggleEditHighwayModalShow(
+      Boolean(highwayId) && Boolean(selectedHighway)
+    )
   }, [highwayId])
 
   useEffect(() => {
@@ -191,20 +198,20 @@ export default function Rodovias() {
       </Head>
 
       <InsertNewHighwayModal
-        handleOnReset={() => setToggleInsertHighway(false)}
+        handleOnReset={() => setToggleInsertHighwayModalShow(false)}
         handleOnSubmit={handleSubmitCreateHighway}
-        show={toggleInsertHighway}
+        show={toggleInsertHighwayModalShow}
       />
       <EditHighwayModal
         handleOnDelete={handleSubmitDeleteHighway}
         handleOnSubmit={handleSubmitEditHighway}
         handleOnReset={() => {
           router.push('/gerenciamento/rodovias') // reset
-          setToggleEditHighway(false)
+          setToggleEditHighwayModalShow(false)
         }}
         highwayData={selectedHighway}
         highwayId={highwayId ? Number(highwayId) : undefined}
-        show={toggleEditHighway}
+        show={toggleEditHighwayModalShow && Boolean(selectedHighway)}
       />
       <div className="container relative mx-auto grid min-h-screen grid-rows-[60px,auto,70px] px-6 pb-8 pt-4">
         <Header.Root>
@@ -233,7 +240,9 @@ export default function Rodovias() {
             <FormSearch.Button
               type="button"
               className="bg-indigo-600 text-white hover:bg-indigo-500 focus:ring-indigo-600"
-              onClick={() => setToggleInsertHighway(!toggleInsertHighway)}
+              onClick={() =>
+                setToggleInsertHighwayModalShow(!toggleInsertHighwayModalShow)
+              }
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
