@@ -129,7 +129,8 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
               description,
               emergencyContacts,
               hasConcessionaire,
-              name
+              name,
+              id
             }
           : highway
       ),
