@@ -3,15 +3,10 @@ import { CreateHighway } from '@/src/application/use-cases/create-highway'
 import { HighwayValidationError } from '@/src/application/use-cases/errors/highway-validation-error'
 import { FindHighwaysByName } from '@/src/application/use-cases/find-highways-by-name'
 import { GetAllHighways } from '@/src/application/use-cases/get-all-highways'
-import {
-  DataMappingService,
-  Filenames
-} from '@/src/infra/data-mapping/data-mapping.service'
+import { DataMappingService } from '@/src/infra/data-mapping/data-mapping.service'
 import { DataMappingHighwaysRepository } from '@/src/infra/data-mapping/repositories/data-mapping-highways-repository'
 import { createHighwayBody } from '@/src/infra/http/dtos/create-highway-body'
 import { Controller } from '@/src/utils/controller'
-import { NextApiRequest, NextApiResponse } from 'next'
-import RenderResult from 'next/dist/server/render-result'
 
 namespace HighwaysController {
   export namespace Post {
@@ -40,8 +35,6 @@ class HighwaysController extends Controller {
   async get(req: Controller.Request, res: Controller.Response) {
     try {
       const { q: searchQuery } = req.query as { q: string }
-
-      console.log(searchQuery, !searchQuery)
 
       if (!searchQuery) {
         const { highways: allHighwaysList } =
