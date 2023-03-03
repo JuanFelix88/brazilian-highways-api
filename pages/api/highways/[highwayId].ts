@@ -5,11 +5,18 @@ import { DataMappingHighwaysRepository } from '@/src/infra/data-mapping/reposito
 import { createHighwayBody } from '@/src/infra/http/dtos/create-highway-body'
 import { Controller } from '@/src/utils/controller'
 import { HighwayValidationError } from '@/src/application/use-cases/errors/highway-validation-error'
+import { DeleteHighwayById } from '@/src/application/use-cases/delete-highway-by-id'
 
 namespace HighwayController {
   export namespace Put {
     export type RequestBody = Omit<Highway, 'id'>
     export interface RequestQuery {
+      highwayId: string
+    }
+  }
+
+  export namespace Delete {
+    export interface RequestBody {
       highwayId: string
     }
   }
@@ -22,6 +29,10 @@ class HighwayController extends Controller {
     new DataMappingHighwaysRepository(this.dataMappingService)
 
   private readonly saveHighwayChanges = new SaveHighwayChanges(
+    this.dataMappingHighwaysRepository
+  )
+
+  private readonly deleteHighwayById = new DeleteHighwayById(
     this.dataMappingHighwaysRepository
   )
 
@@ -65,7 +76,7 @@ class HighwayController extends Controller {
         highwayData
       })
 
-      return res.status(202).send('')
+      return res.status(200).send('')
     } catch (error) {
       if (error instanceof HighwayValidationError) {
         return res.status(406).send({
@@ -75,6 +86,35 @@ class HighwayController extends Controller {
 
       if (error instanceof Error) {
         return res.status(400).send({
+          error: error.message
+        })
+      }
+
+      throw error
+    }
+  }
+
+  async delete(req: Controller.Request, res: Controller.Response) {
+    try {
+      const { highwayId } = req.query as HighwayController.Delete.RequestBody
+
+      const id = Number(highwayId)
+
+      if (isNaN(id)) {
+        return res.status(400).send({
+          error: 'invalid `id` number'
+        })
+      }
+
+      await this.deleteHighwayById.execute({ id })
+
+      return res.status(200).send('')
+    } catch (error) {
+      if (
+        error instanceof Error &&
+        error.message === 'highway not found when deleting by id'
+      ) {
+        return res.status(404).send({
           error: error.message
         })
       }

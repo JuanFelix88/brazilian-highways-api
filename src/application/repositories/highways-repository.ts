@@ -6,4 +6,5 @@ export abstract class HighwaysRepository {
   abstract getAll(): Promise<Highway[]>
   abstract findById(highwayId: number): Promise<Highway | null>
   abstract save(highwayModified: Highway): Promise<void>
+  abstract deleteById(highwayId: number): Promise<void>
 }

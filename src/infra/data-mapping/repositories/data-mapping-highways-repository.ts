@@ -5,7 +5,7 @@ import MiniSearch, { SearchResult } from 'minisearch'
 import removeAccents from 'remove-accents'
 
 export class DataMappingHighwaysRepository implements HighwaysRepository {
-  #dataStoreName = 'highways.json'
+  #dataStoreName = Filenames.Highways
 
   constructor(private readonly dataMappingService: DataMappingService) {}
   private computeId<T extends { id: number }>(list: T[]): number {
@@ -135,6 +135,27 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
           : highway
       ),
       this.#dataStoreName
+    )
+  }
+
+  async deleteById(highwayId: number): Promise<void> {
+    const highways: Highway[] = await this.dataMappingService.loadFromName(
+      Filenames.Highways
+    )
+
+    const hasHighway = highways.some(({ id }) => highwayId === id)
+
+    if (!hasHighway) {
+      throw new Error('highway not found when deleting by id')
+    }
+
+    const highwaysWithRemovedhighwayByIdList = highways.filter(
+      highway => highway.id !== highwayId
+    )
+
+    await this.dataMappingService.saveCacheData(
+      highwaysWithRemovedhighwayByIdList,
+      Filenames.Highways
     )
   }
 }
