@@ -47,6 +47,13 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
     return { id: computedId }
   }
 
+  async getAll(): Promise<Highway[]> {
+    const highways = await this.dataMappingService.loadFromName(
+      Filenames.Highways
+    )
+    return highways
+  }
+
   async findById(highwayId: number): Promise<Highway | null> {
     const highwaysList: Highway[] =
       await this.dataMappingService.getCacheDataByFile(this.#dataStoreName)
