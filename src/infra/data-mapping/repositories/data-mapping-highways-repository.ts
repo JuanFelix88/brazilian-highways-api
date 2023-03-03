@@ -2,6 +2,7 @@ import { Highway } from '@/src/application/entities/highway'
 import { HighwaysRepository } from '@/src/application/repositories/highways-repository'
 import { DataMappingService, Filenames } from '../data-mapping.service'
 import MiniSearch, { SearchResult } from 'minisearch'
+import removeAccents from 'remove-accents'
 
 export class DataMappingHighwaysRepository implements HighwaysRepository {
   #dataStoreName = 'highways.json'
@@ -62,7 +63,8 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
     )
 
     const miniSearch = new MiniSearch<Highway>({
-      fields: ['name', 'code'] as Array<keyof Highway>, // fields to index for full-text search
+      fields: ['name', 'code'] as Array<keyof Highway>,
+      idField: 'id',
       storeFields: [
         'id',
         'name',
@@ -72,7 +74,11 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
         'description',
         'concessionaireName',
         'concessionaireLink'
-      ] as Array<keyof Highway> // fields to index for full-text search
+      ] as Array<keyof Highway>,
+      processTerm: term => removeAccents(term.toLowerCase()),
+      searchOptions: {
+        processTerm: term => removeAccents(term.toLowerCase())
+      }
     })
 
     miniSearch.addAll(highways)
