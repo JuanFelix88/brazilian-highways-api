@@ -6,6 +6,7 @@ import { createHighwayBody } from '@/src/infra/http/dtos/create-highway-body'
 import { Controller } from '@/src/utils/controller'
 import { HighwayValidationError } from '@/src/application/use-cases/errors/highway-validation-error'
 import { DeleteHighwayById } from '@/src/application/use-cases/delete-highway-by-id'
+import { FindHighwayById } from '@/src/application/use-cases/find-highway-by-id'
 
 namespace HighwayController {
   export namespace Put {
@@ -35,6 +36,35 @@ class HighwayController extends Controller {
   private readonly deleteHighwayById = new DeleteHighwayById(
     this.dataMappingHighwaysRepository
   )
+
+  private readonly findHighwayById = new FindHighwayById(
+    this.dataMappingHighwaysRepository
+  )
+
+  async get(req: Controller.Request, res: Controller.Response) {
+    try {
+      const { highwayId } = req.query as HighwayController.Delete.RequestBody
+
+      const id = Number(highwayId)
+
+      if (isNaN(id)) {
+        return res.status(400).send({
+          error: 'invalid `id` number'
+        })
+      }
+
+      const { highway } = await this.findHighwayById.execute({ id })
+
+      res.status(200).send(highway)
+    } catch (error) {
+      if (error instanceof Error && error.message === 'highway not found') {
+        return res.status(404).send({
+          error: error.message
+        })
+      }
+      throw error
+    }
+  }
 
   async put(
     req: Controller.Request<HighwayController.Put.RequestBody>,
