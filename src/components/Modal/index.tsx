@@ -18,17 +18,17 @@ export function Mask() {
 }
 
 export function ModalContainer({
-  className,
+  className = '',
   ...props
-}: HtmlHTMLAttributes<HTMLDivElement>) {
+}: HtmlHTMLAttributes<HTMLFormElement>) {
   return (
-    <div
-      className={`show-modal scroll-modal fixed z-30 max-h-[95vh] self-center justify-self-center overflow-y-scroll rounded-lg bg-white px-8 py-6 text-gray-700 shadow-md ${
-        className ?? ''
-      }`}
-      {...props}
-    >
-      {props.children}
+    <div className="fixed z-30 flex h-screen w-screen items-center justify-center">
+      <form
+        className={`show-modal scroll-modal max-h-[95%]  overflow-y-scroll rounded-lg bg-white px-8 py-6 text-gray-700 shadow-md ${className}`}
+        {...props}
+      >
+        {props.children}
+      </form>
     </div>
   )
 }
