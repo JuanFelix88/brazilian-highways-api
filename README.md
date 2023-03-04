@@ -6,35 +6,33 @@
 
 ## Why?
 
-A motivação principal que originou esse trabalho vem do fato de que hoje há uma necessidade do mapeamento de trechos das rodovias brasileiras com foco nas marcações de quilometragem, informações sobre concessionamento e números de emergência. Reconhecemos que parte dos problemas citados já são absolvidos em outras ferramentas, entretanto não um local onde as funcionalidades estejam agrupadas em uma única API disponível públicamente. 
+The main motivation that originated this work comes from the fact that today there is a need for mapping sections of Brazilian highways with a focus on kilometers markings, concession information and emergency contacts numbers. 
+We recognize that part of the problems mentioned are already solved in other tools, however not a place where the functionalities are grouped in a single API available publicly.
 
 ## Project
 
-Uma API baseada inteiramente na platforma da Vercel com as Edge Functions, com dados estruturados em tempo de build, promovendo uma solução distribuída. 
-Como mencionado acima, para que seja possível a implementação, os dados são acoplados ao diretório da aplicação através de arquivos JSON e o mapeamento das rodovias são realizados através de uma interface interna que está disponível em tempo de desenvolvimento.
+An API based entirely on the Vercel platform, with data structured at build time, promoting a distributed solution.
+As mentioned above, for the implementation to be possible, the data is coupled to the application directory through JSON files and the mapping of highways is done through an internal interface that is available at development time.
 
 ## Usage & settings
 
-Para utilização da API, a documentação está disponível através desse link: [Link Documentação](https://example.org/).
+Available documentation: [Link Documentação](https://example.org/).
 
-## Prerequisites
+## Prerequisites to run project
 
-- [Example](https://example.org/)
+- [Node.js](https://nodejs.org/)
 
-### Optional dependencies
-
-- Example
-- Example
 
 ## Installation
 
 ```
-
+npm install
+npm run dev
 ```
 
 ## Workflow
 
-Descrição básica.
+Under construction.
 
 ## Maintainers
 
