@@ -8,5 +8,15 @@
     "concessionaireName": "Arteris",
     "emergencyContacts": "Atendimento 24h: 0800 7090 116",
     "concessionaireLink": "https://www.arteris.com.br/nossas-rodovias/regis-bittencourt/apresentacao"
+  },
+  {
+    "code": "BR-277",
+    "concessionaireLink": null,
+    "concessionaireName": null,
+    "description": "Trecho de Paranaguá-PR até Curitiba-PR.",
+    "emergencyContacts": "Contato DER/PR: 0800-400-0404",
+    "hasConcessionaire": false,
+    "name": "BR-277",
+    "id": 2
   }
 ]

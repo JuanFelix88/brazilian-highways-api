@@ -1,1 +1,812 @@
-[]
+[
+  {
+    "city": "Paranaguá",
+    "km": 0,
+    "position": [
+      -25.519864,
+      -48.543768
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 1,
+    "position": [
+      -25.527693,
+      -48.547637
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 2,
+    "position": [
+      -25.534421219456927,
+      -48.55378969468281
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 3,
+    "position": [
+      -25.541805,
+      -48.559019
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 4,
+    "position": [
+      -25.550453,
+      -48.561377
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 5,
+    "position": [
+      -25.55702788144175,
+      -48.56708281027199
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 6,
+    "position": [
+      -25.559264158581595,
+      -48.57677617799077
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 7,
+    "position": [
+      -25.561292422034246,
+      -48.58623369423688
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 8,
+    "position": [
+      -25.563802,
+      -48.596058
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 9,
+    "position": [
+      -25.566168366838156,
+      -48.606340671472275
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 10,
+    "position": [
+      -25.568044,
+      -48.615555
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 11,
+    "position": [
+      -25.565995173855825,
+      -48.62495000660931
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 12,
+    "position": [
+      -25.5635745411999,
+      -48.634578967382296
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 13,
+    "position": [
+      -25.560882,
+      -48.646107
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 14,
+    "position": [
+      -25.557840922582816,
+      -48.653090071346405
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 15,
+    "position": [
+      -25.552565,
+      -48.663385
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 16,
+    "position": [
+      -25.550131,
+      -48.67249
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 17,
+    "position": [
+      -25.543899,
+      -48.681869
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Paranaguá",
+    "km": 18,
+    "position": [
+      -25.541166405215915,
+      -48.68819742482664
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 19,
+    "position": [
+      -25.536691,
+      -48.699444
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 20,
+    "position": [
+      -25.534147,
+      -48.706877
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 21,
+    "position": [
+      -25.532233,
+      -48.716806
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 22,
+    "position": [
+      -25.529181,
+      -48.725422
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 23,
+    "position": [
+      -25.528147,
+      -48.737003
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 24,
+    "position": [
+      -25.529152644176627,
+      -48.74512889525246
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 25,
+    "position": [
+      -25.53279277202427,
+      -48.7550423394141
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 26,
+    "position": [
+      -25.535774496572216,
+      -48.763925815351165
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 27,
+    "position": [
+      -25.539104646745297,
+      -48.7738392595128
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 28,
+    "position": [
+      -25.544503,
+      -48.780072
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 29,
+    "position": [
+      -25.546877,
+      -48.790047
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 30,
+    "position": [
+      -25.551843553759326,
+      -48.799030566668904
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 31,
+    "position": [
+      -25.558115709908368,
+      -48.80572536091315
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 32,
+    "position": [
+      -25.560143,
+      -48.814284
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 33,
+    "position": [
+      -25.565386,
+      -48.812137
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 34,
+    "position": [
+      -25.571107,
+      -48.817628
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 35,
+    "position": [
+      -25.574237,
+      -48.828681
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 36,
+    "position": [
+      -25.571789638450593,
+      -48.8357323598491
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 37,
+    "position": [
+      -25.573566,
+      -48.845676
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 38,
+    "position": [
+      -25.573955,
+      -48.854633
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 39,
+    "position": [
+      -25.578432,
+      -48.861938
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 40,
+    "position": [
+      -25.582307001241496,
+      -48.86924254254602
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 41,
+    "position": [
+      -25.581214,
+      -48.877727
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 42,
+    "position": [
+      -25.588474,
+      -48.873588
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 43,
+    "position": [
+      -25.592469961103756,
+      -48.88198033103399
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 44,
+    "position": [
+      -25.593027,
+      -48.890336
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 45,
+    "position": [
+      -25.594668,
+      -48.897254
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 46,
+    "position": [
+      -25.59533,
+      -48.906652
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 47,
+    "position": [
+      -25.591835,
+      -48.915703
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 48,
+    "position": [
+      -25.591745,
+      -48.925202
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Morretes",
+    "km": 49,
+    "position": [
+      -25.58974348411,
+      -48.93470086334
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 50,
+    "position": [
+      -25.588467,
+      -48.944343
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 51,
+    "position": [
+      -25.58613087,
+      -48.9540552549
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 52,
+    "position": [
+      -25.581471213046836,
+      -48.96187019836542
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 53,
+    "position": [
+      -25.577440273890865,
+      -48.97074238450408
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 54,
+    "position": [
+      -25.574634755540753,
+      -48.980173479640776
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 55,
+    "position": [
+      -25.572944000671313,
+      -48.989889994528674
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 56,
+    "position": [
+      -25.56899539252973,
+      -48.99873055559337
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 57,
+    "position": [
+      -25.564969226733858,
+      -49.00808610048877
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 58,
+    "position": [
+      -25.561020355659004,
+      -49.01675500020749
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 59,
+    "position": [
+      -25.556828,
+      -49.026328
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 60,
+    "position": [
+      -25.55334,
+      -49.034013
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 61,
+    "position": [
+      -25.54878577240473,
+      -49.04310502131298
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 62,
+    "position": [
+      -25.54498341935693,
+      -49.052205835256885
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 63,
+    "position": [
+      -25.541210397726722,
+      -49.06136045475513
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 64,
+    "position": [
+      -25.53748590651183,
+      -49.06965999388115
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 65,
+    "position": [
+      -25.53314889000703,
+      -49.078929707902425
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 66,
+    "position": [
+      -25.529354648417662,
+      -49.08776284509094
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 67,
+    "position": [
+      -25.525094014636423,
+      -49.09712581362737
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 68,
+    "position": [
+      -25.52122128575558,
+      -49.105880543929324
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 69,
+    "position": [
+      -25.517348431991092,
+      -49.11446361267177
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 70,
+    "position": [
+      -25.513320531417992,
+      -49.12356166596595
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 71,
+    "position": [
+      -25.509524886235027,
+      -49.13240222656031
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 72,
+    "position": [
+      -25.505419257272443,
+      -49.141843602280346
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 73,
+    "position": [
+      -25.500848675119066,
+      -49.151284977811656
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 74,
+    "position": [
+      -25.497439992185676,
+      -49.15978221566449
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 75,
+    "position": [
+      -25.493333950097867,
+      -49.168622776753956
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "São José dos Pinhais",
+    "km": 76,
+    "position": [
+      -25.4891502911293,
+      -49.177892491372454
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Curitiba",
+    "km": 77,
+    "position": [
+      -25.485312552741135,
+      -49.18637627253192
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Curitiba",
+    "km": 78,
+    "position": [
+      -25.481092463934672,
+      -49.196088596673476
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Curitiba",
+    "km": 79,
+    "position": [
+      -25.477448420954012,
+      -49.20443398081278
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  },
+  {
+    "city": "Curitiba",
+    "km": 80,
+    "position": [
+      -25.471658,
+      -49.211108
+    ],
+    "rodId": 2,
+    "uf": "PR"
+  }
+]
