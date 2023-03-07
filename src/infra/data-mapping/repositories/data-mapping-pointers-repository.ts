@@ -143,4 +143,26 @@ export class DataMappingPointersRepository implements PointersRepository {
       keypointers.find(keypointer => keypointer.id === keypointerId) ?? null
     )
   }
+
+  async deleteById(keypointerId: number): Promise<void> {
+    const keypointers: Array<KeyPointer & { id: number }> =
+      await this.dataMappingService.loadFromName(Filenames.KeyPointers)
+
+    const hasKeypointer = keypointers.some(
+      keypointer => keypointer.id === keypointerId
+    )
+
+    if (!hasKeypointer) {
+      throw new Error("can't delete pointer because not found")
+    }
+
+    const modifiedPointersList = keypointers.filter(
+      keypointer => keypointer.id !== keypointerId
+    )
+
+    await this.dataMappingService.saveCacheData(
+      modifiedPointersList,
+      Filenames.KeyPointers
+    )
+  }
 }
