@@ -1,4 +1,5 @@
 import { KeyPointer } from '../entities/key-pointer'
+import { PointerWithDistanceMeasure } from '../entities/pointer-with-distance-measure'
 
 export abstract class PointersRepository {
   abstract create(pointer: Partial<KeyPointer>): Promise<{ id: number }>
@@ -11,4 +12,8 @@ export abstract class PointersRepository {
   abstract findById(keypointerId: number): Promise<KeyPointer | null>
   abstract save(modifiedPointer: KeyPointer): Promise<void>
   abstract deleteById(keypointerId: number): Promise<void>
+  abstract findByProximity(
+    position: [number, number],
+    ray: number
+  ): Promise<PointerWithDistanceMeasure[]>
 }
