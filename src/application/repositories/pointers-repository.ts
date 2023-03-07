@@ -10,4 +10,5 @@ export abstract class PointersRepository {
   }): Promise<KeyPointer[]>
   abstract findById(keypointerId: number): Promise<KeyPointer | null>
   abstract save(modifiedPointer: KeyPointer): Promise<void>
+  abstract deleteById(keypointerId: number): Promise<void>
 }
