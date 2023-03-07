@@ -23,8 +23,8 @@ export class SavePointersFromHighwayId {
   }: SavePointersFromHighwayId.Request): Promise<SavePointersFromHighwayId.Response> {
     const highway = await this.highwaysRepository.findById(highwayId)
 
-    if (highway?.id !== highwayId) {
-      throw new Error('It was not possible to find the specific highway')
+    if (!highway) {
+      throw new Error('highway not found')
     }
 
     const response = await this.pointersRepository.insertMany(
