@@ -1,4 +1,5 @@
 export interface KilometerMarker {
+  id: number
   rodId: number
   marker: number
   km: number
