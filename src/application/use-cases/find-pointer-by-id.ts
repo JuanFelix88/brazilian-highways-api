@@ -31,7 +31,8 @@ export class FindPointerById {
       marker: pointer.marker,
       position: pointer.position,
       rodId: pointer.rodId,
-      uf: pointer.uf
+      uf: pointer.uf,
+      id: pointer.id
     }
   }
 }
