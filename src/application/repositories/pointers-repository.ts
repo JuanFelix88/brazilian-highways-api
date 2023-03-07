@@ -4,4 +4,8 @@ export abstract class PointersRepository {
   abstract create(pointer: Partial<KeyPointer>): Promise<{ id: number }>
   abstract insertMany(pointers: Array<Partial<KeyPointer>>): Promise<boolean>
   abstract findByHighwayId(highwayId: number): Promise<KeyPointer[]>
+  abstract find(query: {
+    highwayId?: number
+    search?: string
+  }): Promise<KeyPointer[]>
 }
