@@ -19,16 +19,27 @@ export class SaveKeypointerChanges {
     uf,
     id
   }: SaveKeypointerChanges.Request): Promise<void> {
-    await this.pointersRepository.save({
-      accuracyInMeters,
-      city,
-      direction,
-      km,
-      marker,
-      position,
-      rodId,
-      uf,
-      id
-    })
+    try {
+      await this.pointersRepository.save({
+        accuracyInMeters,
+        city,
+        direction,
+        km,
+        marker,
+        position,
+        rodId,
+        uf,
+        id
+      })
+    } catch (err) {
+      if (
+        err instanceof Error &&
+        err.message === "can't delete pointer because not found"
+      ) {
+        throw new Error('pointer not found')
+      }
+
+      throw err
+    }
   }
 }
