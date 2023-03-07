@@ -8,4 +8,6 @@ export abstract class PointersRepository {
     highwayId?: number
     search?: string
   }): Promise<KeyPointer[]>
+  abstract findById(keypointerId: number): Promise<KeyPointer | null>
+  abstract save(modifiedPointer: KeyPointer): Promise<void>
 }
