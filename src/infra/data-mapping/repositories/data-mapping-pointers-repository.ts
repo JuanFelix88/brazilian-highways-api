@@ -6,6 +6,8 @@ import { PointersRepository } from '@/src/application/repositories/pointers-repo
 import { DataMappingService, Filenames } from '../data-mapping.service'
 import MiniSearch, { Query, SearchResult } from 'minisearch'
 import removeAccents from 'remove-accents'
+import { getProximityBetwenPositions } from '@/src/utils/get-proximity-between-positions'
+import { PointerWithDistanceMeasure } from '@/src/application/entities/pointer-with-distance-measure'
 
 export class DataMappingPointersRepository implements PointersRepository {
   constructor(private readonly dataMappingService: DataMappingService) {}
@@ -175,5 +177,51 @@ export class DataMappingPointersRepository implements PointersRepository {
       modifiedPointersList,
       Filenames.KeyPointers
     )
+  }
+
+  async findByProximity(
+    position: [number, number],
+    ray: number
+  ): Promise<PointerWithDistanceMeasure[]> {
+    const measuredIn = 'meters'
+    const pointers: KeyPointer[] = await this.dataMappingService.loadFromName(
+      Filenames.KeyPointers
+    )
+
+    const filteredPointers = pointers
+      .filter(
+        ({ position: pointerPosition }) =>
+          getProximityBetwenPositions(position, pointerPosition, {
+            measure: measuredIn
+          }) <= ray
+      )
+      .map(
+        pointer =>
+          ({
+            ...pointer,
+            measuredIn,
+            distanceMeasure: getProximityBetwenPositions(
+              position,
+              pointer.position,
+              {
+                measure: measuredIn
+              }
+            )
+          } satisfies PointerWithDistanceMeasure)
+      )
+
+    return filteredPointers.map(pointer => ({
+      accuracyInMeters: pointer.accuracyInMeters,
+      city: pointer.city,
+      direction: pointer.direction,
+      id: pointer.id,
+      km: pointer.km,
+      marker: pointer.marker,
+      position: pointer.position,
+      rodId: pointer.rodId,
+      uf: pointer.uf,
+      distanceMeasure: pointer.distanceMeasure,
+      measuredIn: pointer.measuredIn
+    }))
   }
 }
