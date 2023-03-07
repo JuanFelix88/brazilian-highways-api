@@ -125,6 +125,14 @@ export class DataMappingPointersRepository implements PointersRepository {
     const keypointers: Array<KeyPointer & { id: number }> =
       await this.dataMappingService.loadFromName(Filenames.KeyPointers)
 
+    const hasKeypointer = keypointers.some(
+      keypointer => keypointer.id === modifiedPointer.id
+    )
+
+    if (!hasKeypointer) {
+      throw new Error("can't delete pointer because not found")
+    }
+
     const modifiedPointersList = keypointers.map(keypointer =>
       keypointer.id === modifiedPointer.id ? modifiedPointer : keypointer
     )
