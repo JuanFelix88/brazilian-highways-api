@@ -48,7 +48,8 @@ export class FindHighwayKeypointers {
         marker: keypointer.marker,
         position: keypointer.position,
         rodId: keypointer.rodId,
-        uf: keypointer.uf
+        uf: keypointer.uf,
+        id: keypointer.id
       }))
     }
   }

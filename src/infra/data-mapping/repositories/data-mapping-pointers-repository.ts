@@ -44,7 +44,8 @@ export class DataMappingPointersRepository implements PointersRepository {
         'marker',
         'position',
         'rodId',
-        'uf'
+        'uf',
+        'id'
       ] as Array<keyof KeyPointer>,
       processTerm: term => removeAccents(term.toString().toLowerCase()),
       searchOptions: {
@@ -83,7 +84,8 @@ export class DataMappingPointersRepository implements PointersRepository {
       marker: keypointer.marker,
       position: keypointer.position,
       rodId: keypointer.rodId,
-      uf: keypointer.uf
+      uf: keypointer.uf,
+      id: keypointer.id
     }))
   }
 
@@ -96,11 +98,17 @@ export class DataMappingPointersRepository implements PointersRepository {
 
   async insertMany(pointers: Array<Partial<Pointer>>): Promise<boolean> {
     try {
-      const keyPointersList = await this.dataMappingService.loadFromName(
-        Filenames.KeyPointers
-      )
+      const keyPointersList: Array<KeyPointer & { id?: number }> =
+        await this.dataMappingService.loadFromName(Filenames.KeyPointers)
 
-      const newKeyPointersList = [...keyPointersList, ...pointers]
+      let computedId = 1
+      const newKeyPointersList = (
+        [...keyPointersList, ...pointers] as Array<KeyPointer & { id?: number }>
+      ).map(keypointer =>
+        Number.isInteger(keypointer.id)
+          ? keypointer
+          : { ...keypointer, id: computedId++ }
+      )
 
       await this.dataMappingService.saveCacheData(
         newKeyPointersList,
@@ -109,8 +117,30 @@ export class DataMappingPointersRepository implements PointersRepository {
 
       return true
     } catch (error) {
-      console.error(error)
       return false
     }
+  }
+
+  async save(modifiedPointer: KilometerMarker & { id: number }): Promise<void> {
+    const keypointers: Array<KeyPointer & { id: number }> =
+      await this.dataMappingService.loadFromName(Filenames.KeyPointers)
+
+    const modifiedPointersList = keypointers.map(keypointer =>
+      keypointer.id === modifiedPointer.id ? modifiedPointer : keypointer
+    )
+
+    await this.dataMappingService.saveCacheData(
+      modifiedPointersList,
+      Filenames.KeyPointers
+    )
+  }
+
+  async findById(keypointerId: number): Promise<KilometerMarker | null> {
+    const keypointers: Array<KeyPointer & { id: number }> =
+      await this.dataMappingService.loadFromName(Filenames.KeyPointers)
+
+    return (
+      keypointers.find(keypointer => keypointer.id === keypointerId) ?? null
+    )
   }
 }
