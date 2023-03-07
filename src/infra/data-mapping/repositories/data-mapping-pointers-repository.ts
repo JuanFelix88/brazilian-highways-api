@@ -53,17 +53,20 @@ export class DataMappingPointersRepository implements PointersRepository {
       }
     })
 
+    const hasHighwayId = !!highwayId
+    const hasSearch = !!search
+
     miniSearch.addAll(keypointers)
 
     const filteredKeypointersList: Array<SearchResult & KeyPointer> =
       miniSearch.search({
         combineWith: 'AND',
         queries: [
-          {
-            queries: [highwayId?.toString() ?? ''],
+          hasHighwayId && {
+            queries: [highwayId.toString()],
             fields: ['rodId']
           },
-          search && {
+          hasSearch && {
             combineWith: 'OR',
             prefix: true,
             queries: [
