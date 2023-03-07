@@ -21,11 +21,19 @@ class InjectInspect {
 }
 
 function injectsDependencyList<T = any, J = any>(
-  selfClass: J,
+  target: J,
   dependencyList: Array<{ name: string }>
 ): T {
   const injectableList = dependencyList.map(() => new InjectInspect())
-  const instance = new (selfClass as any)(...injectableList)
+
+  const isClass = (target as any).toString().startsWith('class ')
+
+  if (!isClass) {
+    // return the function
+    return target as any
+  }
+
+  const instance = new (target as any)(...injectableList)
 
   for (const key of Object.keys(instance)) {
     const injectableIndex = injectableList.findIndex(
