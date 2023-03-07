@@ -13,6 +13,43 @@ export namespace Controller {
   }
 }
 
+class InjectInspect {
+  public unique: symbol
+  constructor() {
+    this.unique = Symbol('inject')
+  }
+}
+
+function injectsDependencyList<T = any, J = any>(
+  selfClass: J,
+  dependencyList: Array<{ name: string }>
+): T {
+  const injectableList = dependencyList.map(() => new InjectInspect())
+  const instance = new (selfClass as any)(...injectableList)
+
+  for (const key of Object.keys(instance)) {
+    const injectableIndex = injectableList.findIndex(
+      injectable => instance[key] === injectable
+    )
+
+    if (injectableIndex === -1) {
+      continue
+    }
+
+    const dependency = dependencyList.find(dependency =>
+      dependency.name.toLowerCase().includes(key.toLowerCase())
+    )
+
+    if (!dependency) {
+      throw new Error(`Do not resolve the ${key} injectable dependency`)
+    }
+
+    instance[key] = injectsDependencyList(dependency, dependencyList)
+  }
+
+  return instance
+}
+
 export class Controller {
   static availableMethods = ['post', 'get', 'put', 'patch', 'delete', 'options']
 
@@ -35,6 +72,20 @@ export class Controller {
 
   static defineHandler() {
     const instance = new this()
+
+    return instance.handler.bind(instance)
+  }
+
+  static dependencyInjects<T extends Controller>(
+    dependencyList: Array<{ name: string }>
+  ) {
+    return injectsDependencyList<T>(this as any, dependencyList)
+  }
+
+  static defineHandlerWithDependencyInjects<T extends Controller>(
+    dependencyList: Array<{ name: string }>
+  ) {
+    const instance = injectsDependencyList<T>(this as any, dependencyList)
 
     return instance.handler.bind(instance)
   }
