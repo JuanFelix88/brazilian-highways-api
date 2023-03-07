@@ -83,9 +83,10 @@ export class DataMappingHighwaysRepository implements HighwaysRepository {
 
     miniSearch.addAll(highways)
 
-    const searchResult: Array<SearchResult & Highway> = miniSearch.search(
-      search
-    ) as []
+    const searchResult: Array<SearchResult & Highway> = miniSearch.search({
+      prefix: true,
+      queries: [search]
+    }) as []
 
     return searchResult.map(result => ({
       id: result.id,
