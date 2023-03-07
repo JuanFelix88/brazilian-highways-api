@@ -12,7 +12,7 @@ export class DeletePointerById {
 
   async execute({ keypointerId }: DeletePointerById.Request): Promise<void> {
     try {
-      if (typeof keypointerId === 'number') {
+      if (typeof keypointerId !== 'number') {
         throw new Error('keypointerId malformed or not provided')
       }
 
