@@ -1,0 +1,56 @@
+# Busca de Marcações de Quilometragens
+
+Busca de marcações de quilometragens através de parâmetros de pesquisa.
+
+### Rota
+
+> /api/keypointers
+
+### Parâmetros
+
+- `q=<string>`
+  - Opcional
+  - Pesquisa entre os campos ***km***, ***city*** e ***uf***
+- `position=<number,number>`
+  - Opcional
+  - Pesquisa por posição baseado em proximidade
+- `ray_proximity=<number>`
+  - Opcional
+  - Padrão: **1500**
+  - Define o raio para buscas em proximidade
+  - Medida em metros
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X GET \
+  https://brazilian-highways-api.vercel.app/api/keypointers?q=br
+```
+
+### Resposta de exemplo
+```json
+// status 200
+[
+	{
+		"code": "BR-116",
+		"description": "Rodovia que liga Curitiba-PR São Paulo-SP",
+		"emergencyContacts": "Atendimento 24h: 0800 7090 116",
+		"hasConcessionaire": true,
+		"id": 1,
+		"name": "Régis Bittencourt",
+		"concessionaireLink": "https://www.arteris.com.br/nossas-rodovias/regis-bittencourt/apresentacao",
+		"concessionaireName": "Arteris"
+	},
+	{
+		"code": "BR-277",
+		"description": "Trecho de Paranaguá-PR até Curitiba-PR.",
+		"emergencyContacts": "Contato DER/PR: 0800-400-0404",
+		"hasConcessionaire": false,
+		"id": 2,
+		"name": "BR-277",
+		"concessionaireLink": null,
+		"concessionaireName": null
+	}
+]
+```
