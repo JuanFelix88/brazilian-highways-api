@@ -3,5 +3,6 @@
   "rodovia-listagem": "Busca de marcações por rodovia",
   "inserir": "Inserir marcações",
   "obter": "Obter marcação",
-  "alterar": "Alterar marcação"
+  "alterar": "Alterar marcação",
+  "excluir": "Excluir marcação"
 }
