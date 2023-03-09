@@ -1,7 +1,7 @@
 {
   "listagem": "Listar rodovias",
-  "criacao": "Criar rodovia",
   "obter": "Obter rodovia",
+  "criacao": "Criar rodovia",
   "alterar": "Alterar rodovia",
   "excluir": "Excluir rodovia"
 }
