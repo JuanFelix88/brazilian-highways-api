@@ -4,13 +4,16 @@ Busca de marcações de quilometragens por rodovia incluindo pesquisa através d
 
 ### Rota
 
-> /api/highways/:highway_id/keypointers
+> /api/highways/:**highway_id**/keypointers
 
 ### Parâmetros
 
 - `q=<string>`
   - Opcional
   - Pesquisa entre os campos ***km***, ***city*** e ***uf***
+  
+- `:highway_id`
+  - ID da rodovia
 
 ### Requisição de exemplo
 
