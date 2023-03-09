@@ -11,18 +11,16 @@ import { Controller } from '@/src/utils/controller'
 import { ZodError } from 'zod'
 
 export namespace HighwayKeypointer {
-  export type CustomPointer = Omit<KeyPointer, 'rodId'>
+  export type CustomPointer = KeyPointer
 
   export namespace GET {
     export interface Params {
-      highwayId: number
       keypointerId: number
     }
   }
 
   export namespace PUT {
     export interface Params {
-      highwayId: number
       keypointerId: number
     }
 
@@ -31,7 +29,6 @@ export namespace HighwayKeypointer {
 
   export namespace DELETE {
     export interface Params {
-      highwayId: number
       keypointerId: number
     }
   }
@@ -53,14 +50,7 @@ export class HighwayKeypointer extends Controller {
     try {
       const query = req.query as HighwayKeypointer.GET.Params
 
-      const highwayId = Number(query.highwayId)
       const keypointerId = Number(query.keypointerId)
-
-      if (isNaN(highwayId)) {
-        return res.status(400).send({
-          error: `highwayId malformed or not provided`
-        })
-      }
 
       if (isNaN(keypointerId)) {
         return res.status(400).send({
@@ -89,14 +79,7 @@ export class HighwayKeypointer extends Controller {
     try {
       const query = req.query as HighwayKeypointer.GET.Params
 
-      const highwayId = Number(query.highwayId)
       const keypointerId = Number(query.keypointerId)
-
-      if (isNaN(highwayId)) {
-        return res.status(400).send({
-          error: `highwayId malformed or not provided`
-        })
-      }
 
       if (isNaN(keypointerId)) {
         return res.status(400).send({
@@ -114,7 +97,7 @@ export class HighwayKeypointer extends Controller {
         km: pointer.km,
         marker: pointer.marker,
         position: pointer.position,
-        rodId: highwayId,
+        rodId: pointer.rodId,
         uf: pointer.uf
       })
 
@@ -140,14 +123,7 @@ export class HighwayKeypointer extends Controller {
     try {
       const query = req.query as HighwayKeypointer.DELETE.Params
 
-      const highwayId = Number(query.highwayId)
       const keypointerId = Number(query.keypointerId)
-
-      if (isNaN(highwayId)) {
-        return res.status(400).send({
-          error: `highwayId malformed or not provided`
-        })
-      }
 
       if (isNaN(keypointerId)) {
         return res.status(400).send({
