@@ -1,0 +1,35 @@
+# Obter Rodovia
+
+Rota específica para requisição da rodovia através do id.
+
+### Rota
+
+> /api/highways/**:id**
+
+### Parâmetros
+
+- `:id`
+  - ID da rodovia
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X GET \
+  https://brazilian-highways-api.vercel.app/api/highways/1
+```
+
+### Resposta de exemplo
+```json
+// status 200
+{
+	"id": 1,
+	"name": "Régis Bittencourt",
+	"description": "Rodovia que liga Curitiba-PR São Paulo-SP",
+	"code": "BR-116",
+	"hasConcessionaire": true,
+	"concessionaireName": "Arteris",
+	"emergencyContacts": "Atendimento 24h: 0800 7090 116",
+	"concessionaireLink": "https://www.arteris.com.br/nossas-rodovias/regis-bittencourt/apresentacao"
+}
+```

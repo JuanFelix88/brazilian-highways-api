@@ -1,0 +1,44 @@
+# Criar Rodovia
+<p className="text-red-600">Disponível apenas para ambiente de desenvolvimento ⚠️</p>
+
+Rota destinada para a criação de novas rodovias.
+
+
+### Rota
+
+> /api/highways
+
+### Corpo da requisição
+- `name`: **string**
+- `description`: **string**
+- `code`: **UF-000**
+- `hasConcessionaire`: **boolean**
+- `concessionaireName`: **string** *opcional*
+- `concessionaireLink`: **url** *opcional*
+- `emergencyContacts`: **string**
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X POST \
+  -H "Content-Type: application/json" \
+  https://brazilian-highways-api.vercel.app/api/highways \
+  -d '{
+    "name":"Nome Rodovia",
+    "description":"Descrição da rodovia", 
+    "code":"BR-100",
+    "hasConcessionaire":true,
+    "concessionaireName":"Nome Concessionária",
+    "concessionaireLink":"https://exemplog.org",
+    "emergencyContacts":"0800 0000 100"
+  }' 
+```
+
+### Resposta de exemplo
+```json
+// status 201
+{
+  "id": 452
+}
+```

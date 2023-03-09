@@ -1,4 +1,3 @@
-
 const securityHeaders = [
   { key: 'Referrer-Policy', value: 'same-origin' },
   { key: "Access-Control-Allow-Credentials", value: "true" },
@@ -21,4 +20,11 @@ const nextConfig = {
   }
 }
 
-module.exports = nextConfig
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
+  unstable_flexsearch: true,
+  unstable_staticImage: true,
+})
+
+module.exports = withNextra(nextConfig)

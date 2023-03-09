@@ -1,0 +1,63 @@
+# Inserir Marcações de determindada Rodovia
+<p className="text-red-600">Disponível apenas para ambiente de desenvolvimento ⚠️</p>
+
+As marcações estão diretamente relacionadas a rodovia, a inserção desses dados está diretamente interligada ao mapeamento de alguma rodovia.
+
+### Rota
+
+> /api/highways/**:highway_id**/keypointers
+
+### Parâmetros
+
+- `:highway_id`
+  - ID da rodovia
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X POST \
+  -H "Content-Type: application/json" \
+  https://brazilian-highways-api.vercel.app/api/highways/2/keypointers \
+  -d '[
+    {
+      "city": "Paranaguá",
+      "km": 81,
+      "marker": 0,
+      "position": [
+        -25.519864,
+        -48.543768
+      ],
+      "direction": null,
+      "accuracyInMeters": 26,
+      "uf": "PR"
+    },
+    {
+      "city": "Paranaguá",
+      "km": 82,
+      "marker": 1,
+      "position": [
+        -25.5192214,
+        -48.5436311
+      ],
+      "direction": null,
+      "accuracyInMeters": 120,
+      "uf": "PR"
+    }
+  ]' 
+```
+
+### Corpo da requisição
+Considerar o envio de uma lista com o seguinte objeto:
+- `city`: **string**
+- `uf`: **string**
+  - Informar apenas a sigla, confira a [lista de estados brasileiros](https://www.estadosecapitaisdobrasil.com/lista-das-siglas-dos-estados-brasileiros/).
+- `km`: **number**
+- `position`: **[number, number]**
+- `direction`: **string | null**
+- `accuracyInMeters`: **number**
+
+### Resposta de exemplo
+```json
+// status 201
+```

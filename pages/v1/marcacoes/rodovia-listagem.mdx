@@ -1,0 +1,53 @@
+# Busca de Marcações  por Rodovia
+
+Busca de marcações de quilometragens por rodovia incluindo pesquisa através de parâmetros.
+
+### Rota
+
+> /api/highways/:**highway_id**/keypointers
+
+### Parâmetros
+
+- `q=<string>`
+  - Opcional
+  - Pesquisa entre os campos ***km***, ***city*** e ***uf***
+  
+- `:highway_id`
+  - ID da rodovia
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X GET \
+  https://brazilian-highways-api.vercel.app/api/highways/2/keypointers
+```
+
+### Resposta de exemplo
+```json
+// status 200
+[
+	{
+		"city": "Paranaguá",
+		"km": 0,
+		"position": [
+			-25.519864,
+			-48.543768
+		],
+		"rodId": 2,
+		"uf": "PR",
+		"id": 1
+	},
+	{
+		"city": "Paranaguá",
+		"km": 1,
+		"position": [
+			-25.527693,
+			-48.547637
+		],
+		"rodId": 2,
+		"uf": "PR",
+		"id": 2
+	},
+]
+```

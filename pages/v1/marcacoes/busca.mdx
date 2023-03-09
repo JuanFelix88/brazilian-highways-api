@@ -1,0 +1,49 @@
+# Busca de Marcações
+
+Busca de marcações de quilometragens através de parâmetros de pesquisa.
+
+### Rota
+
+> /api/keypointers
+
+### Parâmetros
+
+- `q=<string>`
+  - Pesquisa entre os campos ***km***, ***city*** e ***uf***
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X GET \
+  https://brazilian-highways-api.vercel.app/api/keypointers?q=1
+```
+
+### Resposta de exemplo
+```json
+// status 200
+[
+	{
+		"city": "Paranaguá",
+		"id": 2,
+		"km": 1,
+		"position": [
+			-25.527693,
+			-48.547637
+		],
+		"rodId": 2,
+		"uf": "PR"
+	},
+	{
+		"city": "Morretes",
+		"id": 20,
+		"km": 19,
+		"position": [
+			-25.536691,
+			-48.699444
+		],
+		"rodId": 2,
+		"uf": "PR"
+	},
+]
+```

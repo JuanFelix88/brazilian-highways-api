@@ -1,0 +1,51 @@
+# Alterar Marcação
+<p className="text-red-600">Disponível apenas para ambiente de desenvolvimento ⚠️</p>
+
+Rota específica para modificação dos dados da marcação.
+
+### Rota
+
+> /api/keypointers/**:keypointer_id**
+
+### Parâmetros
+
+- `:keypointer_id`
+  - ID da marcação
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X PUT \
+  -H "Content-Type: application/json" \
+  https://brazilian-highways-api.vercel.app/api/keypointers/5
+  -d '
+  {
+    "city": "Paranaguá",
+    "km": 81,
+    "marker": 0,
+    "position": [
+      -25.519864,
+      -48.543768
+    ],
+    "rodId": 2,
+    "direction": null,
+    "accuracyInMeters": 26,
+    "uf": "PR"
+  }'
+```
+
+### Corpo da requisição
+- `city`: **string**
+- `uf`: **string**
+  - Informar apenas a sigla, confira a [lista de estados brasileiros](https://www.estadosecapitaisdobrasil.com/lista-das-siglas-dos-estados-brasileiros/).
+- `km`: **number**
+- `rodId`: **number**
+- `position`: **[number, number]**
+- `direction`: **string | null**
+- `accuracyInMeters`: **number**
+
+### Resposta de exemplo
+```json
+// status 204
+```
