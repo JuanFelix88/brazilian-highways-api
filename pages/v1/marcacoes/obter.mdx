@@ -1,0 +1,36 @@
+# Obter Marcação
+
+Rota específica para requisição de marcação através do id.
+
+### Rota
+
+> /api/keypointers/:keypointer_id
+
+### Parâmetros
+
+Não há parâmetros para a rota.
+
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X GET \
+  https://brazilian-highways-api.vercel.app/api/api/keypointers/42
+```
+
+### Resposta de exemplo
+```json
+// status 200
+{
+	"city": "Morretes",
+	"km": 41,
+	"position": [
+		-25.581214,
+		-48.877727
+	],
+	"rodId": 2,
+	"uf": "PR",
+	"id": 42
+}
+```
