@@ -21,10 +21,17 @@ Rota específica para modificação dos dados da rodovia.
 ```sh
 curl -L \
   -X PUT \
+  -H "Content-Type: application/json" \
   https://brazilian-highways-api.vercel.app/api/highways/1 \
-  -d '{"name":"Nome Rodovia","description":"Descrição da rodovia",
-  "code":"BR-100","hasConcessionaire":true},"concessionaireName":"Nome Concessionária",
-  "concessionaireLink":"https://exemplog.org","emergencyContacts":"0800 0000 100"}'
+  -d '{
+    "name":"Nome Rodovia",
+    "description":"Descrição da rodovia",
+    "code":"BR-100",
+    "hasConcessionaire":true,
+    "concessionaireName":"Nome Concessionária",
+    "concessionaireLink":"https://exemplog.org",
+    "emergencyContacts":"0800 0000 100"
+  }'
 ```
 
 ### Resposta de exemplo

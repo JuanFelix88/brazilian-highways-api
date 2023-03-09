@@ -22,10 +22,17 @@ Rota destinada para a criação de novas rodovias.
 ```sh
 curl -L \
   -X POST \
+  -H "Content-Type: application/json" \
   https://brazilian-highways-api.vercel.app/api/highways \
-  -d '{"name":"Nome Rodovia","description":"Descrição da rodovia",
-  "code":"BR-100","hasConcessionaire":true},"concessionaireName":"Nome Concessionária",
-  "concessionaireLink":"https://exemplog.org","emergencyContacts":"0800 0000 100"}'
+  -d '{
+    "name":"Nome Rodovia",
+    "description":"Descrição da rodovia", 
+    "code":"BR-100",
+    "hasConcessionaire":true,
+    "concessionaireName":"Nome Concessionária",
+    "concessionaireLink":"https://exemplog.org",
+    "emergencyContacts":"0800 0000 100"
+  }' 
 ```
 
 ### Resposta de exemplo
