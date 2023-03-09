@@ -1,0 +1,58 @@
+# Busca de Marcações por Proximidade
+
+Busca de marcações de quilometragens por proximidade de uma determinada posição.
+
+### Rota
+
+> /api/keypointers
+
+### Parâmetros
+
+- `position=<number,number>`
+  - Posição alvo da pesquisa
+- `ray_proximity=<number>`
+  - Opcional
+  - Padrão: **1500**
+  - Define o raio para buscas em proximidade
+  - Medida em **metros**
+
+### Requisição de exemplo
+
+```sh
+curl -L \
+  -X GET \
+  https://brazilian-highways-api.vercel.app/api/keypointers?ray_proximity=1200&position=-25.53613924132,-48.556601830
+```
+
+### Resposta de exemplo
+```json
+// status 200
+[
+	{
+		"city": "Paranaguá",
+		"id": 3,
+		"km": 2,
+		"position": [
+			-25.534421219456927,
+			-48.55378969468281
+		],
+		"rodId": 2,
+		"uf": "PR",
+		"distanceMeasure": 340.7399997882905,
+		"measuredIn": "meters"
+	},
+	{
+		"city": "Paranaguá",
+		"id": 4,
+		"km": 3,
+		"position": [
+			-25.541805,
+			-48.559019
+		],
+		"rodId": 2,
+		"uf": "PR",
+		"distanceMeasure": 675.0691080499433,
+		"measuredIn": "meters"
+	}
+]
+```
