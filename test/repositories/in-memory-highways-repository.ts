@@ -27,4 +27,25 @@ export class InMemoryHighwaysRepository implements HighwaysRepository {
       odlHighway.id === highwayModified.id ? highwayModified : odlHighway
     )
   }
+
+  async getAll(): Promise<Highway[]> {
+    return this.values
+  }
+
+  async deleteById(highwayId: number): Promise<void> {
+    const filteredValues = this.values.filter(
+      highway => highway.id !== highwayId
+    )
+
+    this.values = filteredValues
+  }
+
+  async findByName(highwayName?: string | undefined): Promise<Highway[]> {
+    const search = highwayName?.toLowerCase()
+    return this.values.filter(
+      highway =>
+        highway.code.toLowerCase().includes(search!) ||
+        highway.name.toLowerCase().includes(search!)
+    )
+  }
 }

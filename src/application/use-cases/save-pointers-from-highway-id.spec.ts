@@ -33,6 +33,7 @@ describe('Test save pointers from highway id', () => {
         km: 0,
         marker: 0,
         position: [0, 0],
+        id: 1,
         rodId: highwayId,
         uf: 'PR'
       },
@@ -44,7 +45,8 @@ describe('Test save pointers from highway id', () => {
         marker: 1,
         position: [0, 0],
         rodId: highwayId,
-        uf: 'PR'
+        uf: 'PR',
+        id: 2
       }
     ]
 

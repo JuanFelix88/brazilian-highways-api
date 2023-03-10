@@ -19,12 +19,13 @@ interface Props {
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async ctx => {
-  const highway =
-    highways.find(highway => Number(ctx.query.id) === highway.id) ?? null
+  const highway = highways.find(
+    highway => Number(ctx.query.id) === highway.id
+  ) as Highway
 
   return {
     props: {
-      highway
+      highway: highway ?? null
     }
   }
 }
