@@ -4,6 +4,9 @@ const config: DocsThemeConfig = {
   toc: {
     float: true
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 3
+  },
   logo: () => (
     <>
       <img
