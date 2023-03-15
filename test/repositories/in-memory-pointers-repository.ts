@@ -7,9 +7,10 @@ export class InMemoryPointersRepository implements PointersRepository {
   public values: KilometerMarker[] = []
 
   async create(pointer: Partial<KilometerMarker>): Promise<{ id: number }> {
-    this.values.push(pointer as KilometerMarker)
+    const id = this.values.length + 1
+    this.values.push({ ...pointer, id } as KilometerMarker)
     return {
-      id: this.values.length
+      id
     }
   }
 
@@ -84,7 +85,7 @@ export class InMemoryPointersRepository implements PointersRepository {
   }
 
   async save(modifiedPointer: KilometerMarker): Promise<void> {
-    this.values.map(oldPointer =>
+    this.values = this.values.map(oldPointer =>
       oldPointer.id === modifiedPointer.id ? modifiedPointer : oldPointer
     )
   }
