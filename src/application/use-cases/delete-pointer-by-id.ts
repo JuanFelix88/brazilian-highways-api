@@ -16,6 +16,12 @@ export class DeletePointerById {
         throw new Error('keypointerId malformed or not provided')
       }
 
+      const keypointer = await this.pointersRepository.findById(keypointerId)
+
+      if (!keypointer) {
+        throw new Error('pointer not found')
+      }
+
       await this.pointersRepository.deleteById(keypointerId)
     } catch (err) {
       if (
