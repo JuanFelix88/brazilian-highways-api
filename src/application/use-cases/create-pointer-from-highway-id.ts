@@ -5,7 +5,7 @@ import { PointersRepository } from '../repositories/pointers-repository'
 export namespace CreatePointerFromHighwayId {
   export interface Request {
     highwayId: number
-    pointer: Omit<KeyPointer, 'rodId'>
+    pointer: Omit<KeyPointer, 'rodId' | 'id'>
   }
 
   export interface Response {
