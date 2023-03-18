@@ -2,7 +2,7 @@ import { Highway } from '@/src/application/entities/highway'
 import { HighwaysRepository } from '@/src/application/repositories/highways-repository'
 
 export class InMemoryHighwaysRepository implements HighwaysRepository {
-  private memoryId = 0
+  private memoryId = 1
   public values: Highway[] = []
 
   protected incrementId() {
