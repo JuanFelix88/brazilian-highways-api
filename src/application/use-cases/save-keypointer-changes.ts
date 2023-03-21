@@ -20,6 +20,12 @@ export class SaveKeypointerChanges {
     id
   }: SaveKeypointerChanges.Request): Promise<void> {
     try {
+      const pointer = await this.pointersRepository.findById(id)
+
+      if (!pointer) {
+        throw new Error('pointer not found')
+      }
+
       await this.pointersRepository.save({
         accuracyInMeters,
         city,
