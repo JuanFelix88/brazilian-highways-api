@@ -114,6 +114,13 @@ class HighwayController extends Controller {
         })
       }
 
+      if (
+        error instanceof Error &&
+        error.message === 'highwayId not provided or malformed'
+      ) {
+        return res.status(406).send({ error: error.message })
+      }
+
       if (error instanceof Error) {
         return res.status(400).send({
           error: error.message
