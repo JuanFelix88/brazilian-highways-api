@@ -23,8 +23,8 @@ export class SaveHighwayChanges {
       concessionaireName
     }
   }: SaveHighwayChanges.Request): Promise<void> {
-    if (!id) {
-      throw new Error('You need to inform the `highwayId` to save the data')
+    if (!id || typeof id !== 'number' || isNaN(id)) {
+      throw new Error('highwayId not provided or malformed')
     }
 
     await this.highwaysRepository.save({

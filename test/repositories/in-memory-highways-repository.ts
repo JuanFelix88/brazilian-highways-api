@@ -23,7 +23,7 @@ export class InMemoryHighwaysRepository implements HighwaysRepository {
   }
 
   async save(highwayModified: Highway): Promise<void> {
-    this.values.map(odlHighway =>
+    this.values = this.values.map(odlHighway =>
       odlHighway.id === highwayModified.id ? highwayModified : odlHighway
     )
   }
