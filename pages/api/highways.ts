@@ -56,8 +56,8 @@ class HighwaysController extends Controller {
       const { message } = error
 
       switch (message) {
-        case 'No highway was found':
-          return res.status(404).send({ error: 'No highway was found' })
+        case 'no highway was found':
+          return res.status(404).send({ error: 'no highway was found' })
         default:
           return res.status(400).send({ error: message })
       }
