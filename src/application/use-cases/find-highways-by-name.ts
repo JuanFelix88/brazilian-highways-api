@@ -26,7 +26,7 @@ export class FindHighwaysByName {
     )
 
     if (highwaysFetchedByName.length === 0) {
-      throw new Error('No highway was found')
+      throw new Error('no highway was found')
     }
 
     return {
